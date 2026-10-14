@@ -1,26 +1,29 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T00:55:00-04:00",
+  "generatedAt": "2026-10-14T08:45:00-04:00",
   "closeAsOf": "2026-10-13",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": "First full brief arrives next weekday morning.",
+  "note": null,
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
       "spot": 47.13,
       "changePct": 0.58,
-      "takeaway": null,
-      "news": [],
+      "takeaway": "Indicated $46.77 pre-market (-0.76%) with bitcoin near $82.7K (-0.6% over 24h); spot bitcoin ETFs took in $175.7M on Oct 13, $65.9M of it into IBIT.",
+      "news": [
+        { "text": "US spot bitcoin ETFs took in $175.7M on Oct 13; IBIT +$65.9M, FBTC +$103.1M (Farside)", "url": "https://farside.co.uk/btc/" },
+        { "text": "BlackRock's IBIT saw a $65M outflow on Oct 12", "url": "https://cryptobriefing.com/blackrock-ibit-bitcoin-etf-outflow-65-million/" },
+        { "text": "Bitcoin trades near $82.7K, down 0.6% over 24 hours (CoinGecko)", "url": "https://www.coingecko.com/en/coins/bitcoin" }
+      ],
       "gex": {
         "callWall": 50,
         "putWall": 35,
         "flip": 43.21,
         "expirations": [
-          {
-            "expiry": "2026-10-14",
-            "netGamma": -1580000
-          }
+          { "expiry": "2026-10-14", "netGamma": -1580000, "callWall": 48, "putWall": 46 },
+          { "expiry": "2026-10-15", "netGamma": 1050000, "callWall": 47, "putWall": 44, "flip": 46.1 },
+          { "expiry": "2026-10-16", "netGamma": 93800000, "callWall": 47, "putWall": 44.5, "flip": 46.65 }
         ]
       }
     },
@@ -29,17 +32,20 @@
       "name": "SpaceX",
       "spot": 156.54,
       "changePct": -4.21,
-      "takeaway": null,
-      "news": [],
+      "takeaway": "Indicated $155.56 pre-market (-0.63%) after Tuesday's 4.2% drop, as the FAA opened an environmental review for up to 456 Starship launches a year at Starbase.",
+      "news": [
+        { "text": "FAA notice of intent: programmatic EIS for up to 456 Starship launches and 912 landings a year at Starbase; comments due Nov 30", "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20963/notice-of-intent-to-prepare-a-programmatic-environmental-impact-statement-peis-open-public-scoping" },
+        { "text": "SpaceX drops 4% as FAA launches sweeping Starbase review", "url": "https://financefeeds.com/spacex-drops-4-as-faa-launches-sweeping-starbase/" },
+        { "text": "Morgan Stanley: Overweight, $300 target, on distributed inference potential", "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-raises-spacex-stock-price-target-on-distributed-inference-potential-93CH-4948701" }
+      ],
       "gex": {
         "callWall": 200,
         "putWall": 135,
         "flip": 154.96,
         "expirations": [
-          {
-            "expiry": "2026-10-14",
-            "netGamma": -6050000
-          }
+          { "expiry": "2026-10-14", "netGamma": -6050000, "callWall": 165, "putWall": 157.5 },
+          { "expiry": "2026-10-16", "netGamma": 16800000, "callWall": 160, "putWall": 155 },
+          { "expiry": "2026-10-19", "netGamma": 558000, "callWall": 170, "putWall": 155 }
         ]
       }
     },
@@ -48,17 +54,20 @@
       "name": "Nvidia",
       "spot": 228.52,
       "changePct": 0.97,
-      "takeaway": null,
-      "news": [],
+      "takeaway": "Indicated $226.31 pre-market (-0.97%) into the CPI open, after Tuesday's +0.97% close on news of stakes in French startups Doctolib and Genesis AI.",
+      "news": [
+        { "text": "Nvidia buys stakes in French tech startups Doctolib and Genesis AI (Reuters)", "url": "https://www.marketscreener.com/news/nvidia-buys-stakes-in-french-tech-startups-doctolib-genesis-ai-ce785dddd08efe2c" },
+        { "text": "Form 4/A: EVP Nicholas Parker's Sept 9 RSU grant corrected to 160,418 shares (award, not a sale)", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000215218826000007/0002152188-26-000007-index.htm" },
+        { "text": "What's going on with Nvidia stock Wednesday", "url": "https://www.benzinga.com/markets/tech/26/10/62348372/whats-going-on-with-nvidia-stock-wednesday-6" }
+      ],
       "gex": {
         "callWall": 240,
         "putWall": 205,
         "flip": 211.48,
         "expirations": [
-          {
-            "expiry": "2026-10-14",
-            "netGamma": 65300000
-          }
+          { "expiry": "2026-10-14", "netGamma": 65300000, "callWall": 230, "putWall": 222.5, "flip": 227.86 },
+          { "expiry": "2026-10-16", "netGamma": 508000000, "callWall": 235, "putWall": 222.5, "flip": 221.98 },
+          { "expiry": "2026-10-19", "netGamma": 5210000, "callWall": 235, "putWall": 230 }
         ]
       }
     }
