@@ -246,7 +246,12 @@
     const symbol = esc(ticker.symbol || "");
     const name = esc(ticker.name || "");
     const change = formatChange(ticker.changePct);
-    const changeHtml = change ? "<span class=\"chg " + change.dir + "\">" + change.text + "</span>" : "";
+    const morningChange = change ? change.text : "";
+    const morningDir = change ? change.dir : "flat";
+    const changeHtml = change
+      ? "<span class=\"chg " + change.dir + "\" data-quote-change data-morning=\"" + esc(morningChange) + "\" data-dir=\"" + morningDir + "\">" + morningChange + "</span>"
+      : "<span class=\"chg flat\" data-quote-change data-morning=\"\" data-dir=\"flat\" hidden></span>";
+    const closeChange = morningChange ? " · " + morningChange : "";
     const takeaway = ticker.takeaway
       ? "<p class=\"takeaway\">" + esc(ticker.takeaway) + "</p>"
       : "<p class=\"empty\">No takeaway in this brief.</p>";
@@ -255,7 +260,12 @@
     return (
       "<article class=\"card\" data-symbol=\"" + symbol + "\">" +
       "<header class=\"card-top\"><h2 class=\"symbol\">" + symbol + "</h2><p class=\"name\">" + name + "</p></header>" +
-      "<p class=\"price-row\"><span class=\"spot\">" + formatSpot(ticker.spot) + "</span>" + changeHtml + "</p>" +
+      "<p class=\"price-row\">" +
+      "<span class=\"spot\" data-quote-price data-morning=\"" + esc(formatSpot(ticker.spot)) + "\">" + formatSpot(ticker.spot) + "</span>" +
+      changeHtml +
+      "<span class=\"quote-state\" data-quote-state hidden></span>" +
+      "</p>" +
+      "<p class=\"last-close\" data-last-close hidden>Last close <b>" + formatSpot(ticker.spot) + "</b>" + esc(closeChange) + "</p>" +
       fieldHtml("Takeaway", takeaway, false) +
       fieldHtml("Headlines", newsHtml(ticker.news), hasNews) +
       "<h3 class=\"section-label\">Board</h3>" +
@@ -295,6 +305,7 @@
   }
 
   function showError(message) {
+    stopQuotes();
     briefEl.innerHTML = "<p class=\"error\">" + esc(message) + "</p>";
     noteEl.hidden = true;
     footerEl.textContent = "";
@@ -304,6 +315,7 @@
   }
 
   async function show() {
+    stopQuotes();
     try {
       const index = await fetchJson("data/archive/index.json");
       const dates = (Array.isArray(index) ? index : []).filter(isDate);
@@ -317,10 +329,196 @@
       }
       const data = await fetchJson(archived ? "data/archive/" + requested + ".json" : "data/latest.json");
       render(data, { archived });
+      if (!archived) startQuotes();
     } catch (err) {
       showError("This brief could not be loaded.");
     }
   }
+
+  // Public CNBC quote page. partnerId=2 is their site's public query flag, not a key.
+  const QUOTE_INTERVAL_MS = 45000;
+  const SESSION_START = 4 * 60;
+  const SESSION_END = 20 * 60;
+  const QUOTE_LABELS = { live: "Live", delayed: "Delayed", closed: "Market closed" };
+  let quoteGeneration = 0;
+  let quoteTimer = 0;
+
+  function stopQuotes() {
+    quoteGeneration += 1;
+    if (quoteTimer) clearInterval(quoteTimer);
+    quoteTimer = 0;
+  }
+
+  function quoteSymbols() {
+    return Array.from(briefEl.querySelectorAll(".card[data-symbol]"))
+      .map((card) => card.getAttribute("data-symbol") || "")
+      .filter((symbol) => /^[A-Z0-9.\-]{1,12}$/.test(symbol));
+  }
+
+  function etSessionOpen(date) {
+    const parts = {};
+    for (const part of new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    }).formatToParts(date)) {
+      parts[part.type] = part.value;
+    }
+    if (!["Mon", "Tue", "Wed", "Thu", "Fri"].includes(parts.weekday)) return false;
+    const minutes = Number(parts.hour) * 60 + Number(parts.minute);
+    return minutes >= SESSION_START && minutes < SESSION_END;
+  }
+
+  function parsePrice(value) {
+    if (typeof value === "number") return Number.isFinite(value) ? value : null;
+    if (typeof value !== "string" || !value.trim()) return null;
+    const n = Number(value.replace(/,/g, ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function parseQuoteDate(iso) {
+    if (typeof iso !== "string" || !iso) return null;
+    const dt = new Date(iso.replace(/([+-]\d{2})(\d{2})$/, "$1:$2"));
+    return Number.isNaN(dt.getTime()) ? null : dt;
+  }
+
+  function formatQuoteTime(iso) {
+    const dt = parseQuoteDate(iso);
+    if (!dt) return "";
+    const time = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).format(dt);
+    return time + " ET";
+  }
+
+  function pickPrint(quote) {
+    const status = String(quote.curmktstatus || "").toUpperCase();
+    const extended = quote.ExtendedMktQuote && typeof quote.ExtendedMktQuote === "object" ? quote.ExtendedMktQuote : null;
+    const extendedType = extended ? String(extended.type || "").toUpperCase() : "";
+    const regular = { price: parsePrice(quote.last), time: quote.last_time };
+    const extendedPrint = extended ? { price: parsePrice(extended.last), time: extended.last_time || quote.last_time } : null;
+    const session = status === "PRE_MKT" || status === "REG_MKT" || status === "POST_MKT";
+    let print = regular;
+    if ((status === "PRE_MKT" || status === "POST_MKT") && extendedPrint && extendedPrint.price !== null && extendedType === status) {
+      print = extendedPrint;
+    } else if (!session && extendedPrint && extendedPrint.price !== null) {
+      const extendedMs = parseQuoteDate(extendedPrint.time);
+      const regularMs = parseQuoteDate(regular.time);
+      if (extendedMs && (!regularMs || extendedMs >= regularMs)) print = extendedPrint;
+    }
+    if (print.price === null) return null;
+    const previous = parsePrice(quote.previous_day_closing);
+    const realtime = quote.realTime === true || quote.realTime === "true";
+    return {
+      price: print.price,
+      changePct: previous ? ((print.price - previous) / previous) * 100 : null,
+      time: print.time,
+      state: session ? (realtime ? "live" : "delayed") : "closed",
+    };
+  }
+
+  function restoreMorning(card) {
+    const price = card.querySelector("[data-quote-price]");
+    const change = card.querySelector("[data-quote-change]");
+    const state = card.querySelector("[data-quote-state]");
+    const close = card.querySelector("[data-last-close]");
+    if (price) price.textContent = price.dataset.morning || "—";
+    if (change) {
+      const morning = change.dataset.morning || "";
+      change.textContent = morning;
+      change.className = "chg " + (change.dataset.dir || "flat");
+      change.hidden = !morning;
+    }
+    if (state) {
+      state.hidden = true;
+      state.textContent = "";
+      state.className = "quote-state";
+    }
+    if (close) close.hidden = true;
+  }
+
+  function paintQuote(card, print) {
+    const price = card.querySelector("[data-quote-price]");
+    const change = card.querySelector("[data-quote-change]");
+    const state = card.querySelector("[data-quote-state]");
+    const close = card.querySelector("[data-last-close]");
+    if (!price || !state) return;
+    price.textContent = formatSpot(print.price);
+    if (change) {
+      const formatted = formatChange(print.changePct);
+      if (formatted) {
+        change.hidden = false;
+        change.textContent = formatted.text;
+        change.className = "chg " + formatted.dir;
+      } else {
+        change.hidden = true;
+        change.textContent = "";
+      }
+    }
+    const when = formatQuoteTime(print.time);
+    state.hidden = false;
+    state.className = "quote-state " + print.state;
+    state.textContent = QUOTE_LABELS[print.state] + (when ? " · " + when : "");
+    if (close) close.hidden = false;
+  }
+
+  async function refreshQuotes(generation) {
+    const symbols = quoteSymbols();
+    if (!symbols.length || generation !== quoteGeneration) return;
+    let payload = null;
+    try {
+      const response = await fetch(
+        "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=" +
+          symbols.join("|") +
+          "&requestMethod=itv&noCache=true&partnerId=2&fund=1&exthrs=1&output=json&events=1&t=" +
+          Date.now(),
+        { cache: "no-store" }
+      );
+      if (!response.ok) throw new Error("quote " + response.status);
+      payload = await response.json();
+    } catch (err) {
+      return;
+    }
+    if (generation !== quoteGeneration) return;
+    let list = payload && payload.FormattedQuoteResult && payload.FormattedQuoteResult.FormattedQuote;
+    if (!list) return;
+    if (!Array.isArray(list)) list = [list];
+    const bySymbol = {};
+    list.forEach((quote) => {
+      if (!quote || Number(quote.code) !== 0 || !quote.symbol) return;
+      const print = pickPrint(quote);
+      if (print) bySymbol[String(quote.symbol).toUpperCase()] = print;
+    });
+    symbols.forEach((symbol) => {
+      const card = briefEl.querySelector('.card[data-symbol="' + symbol + '"]');
+      if (!card) return;
+      if (bySymbol[symbol]) paintQuote(card, bySymbol[symbol]);
+      else restoreMorning(card);
+    });
+  }
+
+  function startQuotes() {
+    if (quoteTimer) clearInterval(quoteTimer);
+    const generation = quoteGeneration;
+    const run = () => {
+      if (generation !== quoteGeneration || document.hidden) return;
+      refreshQuotes(generation);
+    };
+    run();
+    quoteTimer = setInterval(() => {
+      if (!etSessionOpen(new Date())) return;
+      run();
+    }, QUOTE_INTERVAL_MS);
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && quoteTimer) refreshQuotes(quoteGeneration);
+  });
 
   selectEl.addEventListener("change", () => {
     const url = new URL(location.href);
