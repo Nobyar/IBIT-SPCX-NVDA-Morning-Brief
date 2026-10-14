@@ -36,6 +36,12 @@ Do not invent strikes, expiries, headlines, or percentages. If an expiration's c
 
 The social image is a static title card. Daily edits do not need a new image.
 
+## Live quotes
+
+On the latest brief, the page loads keyless quotes from CNBC's public quote endpoint in the browser. No API key is stored in the repo. While the tab is visible, it refreshes about every 45 seconds from 4:00 AM to 8:00 PM ET on weekdays, including pre-market and after-hours when CNBC includes that print. Each card then shows the session price, the change versus the previous close, and a Live, Delayed, or Market closed marker with the quote time in ET.
+
+The JSON `spot` and `changePct` stay on the card as the last close. Gamma levels are not replaced. An archived brief keeps its morning prices. If a quote cannot be read, that card stays on the morning figures.
+
 ## JSON schema
 
 `data/latest.json` and each `data/archive/YYYY-MM-DD.json` use the same object. `changePct` is in percent points: `0.58` means +0.58%, not 0.0058. `netGamma` is US dollars of net gamma per 1% move: `-1580000` means −$1.58 million. `generatedAt` is ISO-8601 with a US Eastern offset (`-04:00` for EDT, `-05:00` for EST).
