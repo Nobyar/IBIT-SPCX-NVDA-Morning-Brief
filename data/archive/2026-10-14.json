@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T00:55:00-04:00",
+  "closeAsOf": "2026-10-13",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "First full brief arrives next weekday morning.",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 47.13,
+      "changePct": 0.58,
+      "takeaway": null,
+      "news": [],
+      "gex": {
+        "callWall": 50,
+        "putWall": 35,
+        "flip": 43.21,
+        "expirations": [
+          {
+            "expiry": "2026-10-14",
+            "netGamma": -1580000
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 156.54,
+      "changePct": -4.21,
+      "takeaway": null,
+      "news": [],
+      "gex": {
+        "callWall": 200,
+        "putWall": 135,
+        "flip": 154.96,
+        "expirations": [
+          {
+            "expiry": "2026-10-14",
+            "netGamma": -6050000
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "spot": 228.52,
+      "changePct": 0.97,
+      "takeaway": null,
+      "news": [],
+      "gex": {
+        "callWall": 240,
+        "putWall": 205,
+        "flip": 211.48,
+        "expirations": [
+          {
+            "expiry": "2026-10-14",
+            "netGamma": 65300000
+          }
+        ]
+      }
+    }
+  ]
+}
