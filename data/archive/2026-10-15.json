@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T08:40:00-04:00",
+  "closeAsOf": "2026-10-14",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": null,
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.24,
+      "changePct": -1.89,
+      "takeaway": "IBIT indicated $45.75 pre-market (−1.06%) after Oct 14 spot Bitcoin ETF outflows of $261M (IBIT −$111M) and BTC near $80.8K.",
+      "news": [
+        {
+          "text": "U.S. spot Bitcoin ETFs saw $261.46M net outflows Oct 14; IBIT −$110.94M",
+          "url": "https://en.bloomingbit.io/feed/news/122262"
+        },
+        {
+          "text": "Bitcoin back under $81,000 as AI selloff worsens",
+          "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens"
+        },
+        {
+          "text": "Nearly $1B in crypto bets liquidated as bitcoin, ether and XRP slide",
+          "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
+        },
+        {
+          "text": "Bitcoin ETF flows (daily table by fund)",
+          "url": "https://www.tftc.io/bitcoin-etf-flows"
+        }
+      ],
+      "gex": {
+        "callWall": 47,
+        "putWall": 44,
+        "flip": 43.37,
+        "expirations": [
+          {
+            "expiry": "2026-10-15",
+            "netGamma": -40200,
+            "callWall": 48,
+            "putWall": 46
+          },
+          {
+            "expiry": "2026-10-16",
+            "netGamma": 53200000,
+            "callWall": 47,
+            "putWall": 44.5,
+            "flip": 46.74
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": -262000,
+            "callWall": 47.5,
+            "putWall": 46
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 152.16,
+      "changePct": -2.8,
+      "takeaway": "SPCX indicated $148.20 pre-market (−2.60%) in a risk-off tape, with FAA Starbase review overhang and bullish analyst reiterates still in place.",
+      "news": [
+        {
+          "text": "Why SpaceX is falling despite a successful NASA resupply launch",
+          "url": "https://invezz.com/news/2026/10/14/why-is-spacex-falling-despite-successful-nasa-resupply-mission-launch/"
+        },
+        {
+          "text": "Raymond James reiterates Strong Buy, $800 PT on Starship expansion plans",
+          "url": "https://stocktwits.com/news-articles/markets/equity/spacex-ambitious-starship-expansion-plans-see-raymond-james-reiterate-800-price-target/cZxfvFARBq1"
+        },
+        {
+          "text": "SpaceX stock: why a CNBC Pro contributor is buying more after the pullback",
+          "url": "https://www.cnbc.com/2026/10/14/spacex-stock-starlink-ai-buying-more.html"
+        }
+      ],
+      "gex": {
+        "callWall": 200,
+        "putWall": 140,
+        "flip": 153.03,
+        "expirations": [
+          {
+            "expiry": "2026-10-16",
+            "netGamma": -21700000,
+            "callWall": 160,
+            "putWall": 155
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": 2720000,
+            "callWall": 157.5,
+            "putWall": 152.5,
+            "flip": 158.77
+          },
+          {
+            "expiry": "2026-10-21",
+            "netGamma": -193000,
+            "callWall": 162.5,
+            "putWall": 147
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "spot": 221.3,
+      "changePct": -3.16,
+      "takeaway": "NVDA indicated $217.38 pre-market (−1.77%) after Wednesday’s −3.16% close, as hot inflation and AI-credit jitters extend the chip selloff.",
+      "news": [
+        {
+          "text": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
+          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"
+        },
+        {
+          "text": "North American morning briefing: tech selloff extends into a second day",
+          "url": "https://www.morningstar.com/news/dow-jones/202610152394/north-american-morning-briefing-stock-futures-mixed-as-tech-selloff-extends-into-second-day"
+        },
+        {
+          "text": "US September PPI 6.3% vs 5.3% expected",
+          "url": "https://investinglive.com/news/us-september-ppi-6-3-vs-5-3-expected/"
+        }
+      ],
+      "gex": {
+        "callWall": 240,
+        "putWall": 205,
+        "flip": 210.58,
+        "expirations": [
+          {
+            "expiry": "2026-10-16",
+            "netGamma": 174000000,
+            "callWall": 220,
+            "putWall": 222.5,
+            "flip": 228.92
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": 2520000,
+            "callWall": 235,
+            "putWall": 230
+          },
+          {
+            "expiry": "2026-10-21",
+            "netGamma": 791000,
+            "callWall": 230,
+            "putWall": 220,
+            "flip": 239.96
+          }
+        ]
+      }
+    }
+  ]
+}
