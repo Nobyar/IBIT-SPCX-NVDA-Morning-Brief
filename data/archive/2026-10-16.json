@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T08:37:00-04:00",
+  "closeAsOf": "2026-10-15",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": null,
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.59,
+      "changePct": 0.76,
+      "takeaway": "IBIT indicated ~$46.56 pre-market (−0.06%) after a +0.76% Thu close; US spot BTC ETFs flipped to +$5.1M Oct 15 with IBIT +$16.8M, BTC near $82.2K.",
+      "news": [
+        {
+          "text": "US spot Bitcoin ETFs +$5.06M net Oct 15; IBIT leads +$16.79M",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-see-5-06m-net-inflow-on-october-15-blackrock-s-ibit-leads-with-16-79m"
+        },
+        {
+          "text": "Bitcoin ETFs add $5.06M while Ether funds lose $60.22M",
+          "url": "https://coinscreamer.com/bitcoin-ethereum-etf-flows-october-15/"
+        },
+        {
+          "text": "Farside: total +$5.1M; IBIT +$16.8M",
+          "url": "https://blockchain.news/flashnews/bitcoin-etf-5-1m-net-inflow-reported"
+        },
+        {
+          "text": "IBIT quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/IBIT/"
+        }
+      ],
+      "gex": {
+        "callWall": 47,
+        "putWall": 35,
+        "flip": 43.85,
+        "expirations": [
+          {
+            "expiry": "2026-10-16",
+            "netGamma": 68100000,
+            "callWall": 47,
+            "putWall": 44.5,
+            "flip": 46.65
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": -194000,
+            "callWall": 47.5,
+            "putWall": 46
+          },
+          {
+            "expiry": "2026-10-20",
+            "netGamma": 410000,
+            "callWall": 47,
+            "putWall": 46,
+            "flip": 47.88
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 148.62,
+      "changePct": -2.33,
+      "takeaway": "SPCX indicated ~$150.61 pre-market (+1.34%) after a −2.33% Thu close; Evercore ISI raised PT to $275 (Outperform) with Oct 26 lockup still ahead.",
+      "news": [
+        {
+          "text": "Evercore ISI raises SpaceX price target to $275 from $230, maintains Outperform",
+          "url": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html"
+        },
+        {
+          "text": "Oct 26 lockup: ~319M insider shares become eligible for sale",
+          "url": "https://www.ibtimes.sg/spacex-ipo-faces-october-26-test-319-million-insider-shares-become-eligible-sale-95182"
+        },
+        {
+          "text": "SPCX quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/SPCX/"
+        }
+      ],
+      "gex": {
+        "callWall": 200,
+        "putWall": 150,
+        "flip": 151.86,
+        "expirations": [
+          {
+            "expiry": "2026-10-16",
+            "netGamma": -36400000,
+            "callWall": 160,
+            "putWall": 150
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": -8760000,
+            "callWall": 157.5,
+            "putWall": 148
+          },
+          {
+            "expiry": "2026-10-21",
+            "netGamma": -1120000,
+            "callWall": 162.5,
+            "putWall": 147
+          }
+        ]
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "spot": 217.23,
+      "changePct": -1.84,
+      "takeaway": "NVDA indicated ~flat pre-market after a −1.84% Thu close; Huang said Nvidia need not backstop CoreWeave, Mercedes partnership expanded, KeyBanc kept Overweight $275 with Rubin HBM risk note.",
+      "news": [
+        {
+          "text": "Why Nvidia is rising in premarket vs AMD, Broadcom, Intel; Huang on CoreWeave; Mercedes partnership",
+          "url": "https://blog.tipranks.com/why-nvidia-stock-is-rising-while-amd-broadcom-and-intel-stocks-are-falling-in-premarket-today-october-16/"
+        },
+        {
+          "text": "KeyBanc maintains Overweight, $275 PT; flags Rubin HBM bottlenecks",
+          "url": "https://gmteight.com/flash/detail/1279245"
+        },
+        {
+          "text": "NVDA quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/NVDA/"
+        }
+      ],
+      "gex": {
+        "callWall": 250,
+        "putWall": 217.5,
+        "flip": 213.25,
+        "expirations": [
+          {
+            "expiry": "2026-10-16",
+            "netGamma": -23500000,
+            "callWall": 220,
+            "putWall": 217.5
+          },
+          {
+            "expiry": "2026-10-19",
+            "netGamma": -9400000,
+            "callWall": 225,
+            "putWall": 217.5
+          },
+          {
+            "expiry": "2026-10-21",
+            "netGamma": -1630000,
+            "callWall": 230,
+            "putWall": 220
+          }
+        ]
+      }
+    }
+  ]
+}
