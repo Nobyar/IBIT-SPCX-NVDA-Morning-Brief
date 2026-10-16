@@ -1,57 +1,58 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T08:40:00-04:00",
-  "closeAsOf": "2026-10-14",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T08:37:00-04:00",
+  "closeAsOf": "2026-10-15",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
   "note": null,
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 46.24,
-      "changePct": -1.89,
-      "takeaway": "IBIT indicated $45.75 pre-market (−1.06%) after Oct 14 spot Bitcoin ETF outflows of $261M (IBIT −$111M) and BTC near $80.8K.",
+      "spot": 46.59,
+      "changePct": 0.76,
+      "takeaway": "IBIT indicated ~$46.56 pre-market (−0.06%) after a +0.76% Thu close; US spot BTC ETFs flipped to +$5.1M Oct 15 with IBIT +$16.8M, BTC near $82.2K.",
       "news": [
         {
-          "text": "U.S. spot Bitcoin ETFs saw $261.46M net outflows Oct 14; IBIT −$110.94M",
-          "url": "https://en.bloomingbit.io/feed/news/122262"
+          "text": "US spot Bitcoin ETFs +$5.06M net Oct 15; IBIT leads +$16.79M",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-see-5-06m-net-inflow-on-october-15-blackrock-s-ibit-leads-with-16-79m"
         },
         {
-          "text": "Bitcoin back under $81,000 as AI selloff worsens",
-          "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens"
+          "text": "Bitcoin ETFs add $5.06M while Ether funds lose $60.22M",
+          "url": "https://coinscreamer.com/bitcoin-ethereum-etf-flows-october-15/"
         },
         {
-          "text": "Nearly $1B in crypto bets liquidated as bitcoin, ether and XRP slide",
-          "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
+          "text": "Farside: total +$5.1M; IBIT +$16.8M",
+          "url": "https://blockchain.news/flashnews/bitcoin-etf-5-1m-net-inflow-reported"
         },
         {
-          "text": "Bitcoin ETF flows (daily table by fund)",
-          "url": "https://www.tftc.io/bitcoin-etf-flows"
+          "text": "IBIT quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/IBIT/"
         }
       ],
       "gex": {
         "callWall": 47,
-        "putWall": 44,
-        "flip": 43.37,
+        "putWall": 35,
+        "flip": 43.85,
         "expirations": [
           {
-            "expiry": "2026-10-15",
-            "netGamma": -40200,
-            "callWall": 48,
-            "putWall": 46
-          },
-          {
             "expiry": "2026-10-16",
-            "netGamma": 53200000,
+            "netGamma": 68100000,
             "callWall": 47,
             "putWall": 44.5,
-            "flip": 46.74
+            "flip": 46.65
           },
           {
             "expiry": "2026-10-19",
-            "netGamma": -262000,
+            "netGamma": -194000,
             "callWall": 47.5,
             "putWall": 46
+          },
+          {
+            "expiry": "2026-10-20",
+            "netGamma": 410000,
+            "callWall": 47,
+            "putWall": 46,
+            "flip": 47.88
           }
         ]
       }
@@ -59,44 +60,43 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 152.16,
-      "changePct": -2.8,
-      "takeaway": "SPCX indicated $148.20 pre-market (−2.60%) in a risk-off tape, with FAA Starbase review overhang and bullish analyst reiterates still in place.",
+      "spot": 148.62,
+      "changePct": -2.33,
+      "takeaway": "SPCX indicated ~$150.61 pre-market (+1.34%) after a −2.33% Thu close; Evercore ISI raised PT to $275 (Outperform) with Oct 26 lockup still ahead.",
       "news": [
         {
-          "text": "Why SpaceX is falling despite a successful NASA resupply launch",
-          "url": "https://invezz.com/news/2026/10/14/why-is-spacex-falling-despite-successful-nasa-resupply-mission-launch/"
+          "text": "Evercore ISI raises SpaceX price target to $275 from $230, maintains Outperform",
+          "url": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html"
         },
         {
-          "text": "Raymond James reiterates Strong Buy, $800 PT on Starship expansion plans",
-          "url": "https://stocktwits.com/news-articles/markets/equity/spacex-ambitious-starship-expansion-plans-see-raymond-james-reiterate-800-price-target/cZxfvFARBq1"
+          "text": "Oct 26 lockup: ~319M insider shares become eligible for sale",
+          "url": "https://www.ibtimes.sg/spacex-ipo-faces-october-26-test-319-million-insider-shares-become-eligible-sale-95182"
         },
         {
-          "text": "SpaceX stock: why a CNBC Pro contributor is buying more after the pullback",
-          "url": "https://www.cnbc.com/2026/10/14/spacex-stock-starlink-ai-buying-more.html"
+          "text": "SPCX quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/SPCX/"
         }
       ],
       "gex": {
         "callWall": 200,
-        "putWall": 140,
-        "flip": 153.03,
+        "putWall": 150,
+        "flip": 151.86,
         "expirations": [
           {
             "expiry": "2026-10-16",
-            "netGamma": -21700000,
+            "netGamma": -36400000,
             "callWall": 160,
-            "putWall": 155
+            "putWall": 150
           },
           {
             "expiry": "2026-10-19",
-            "netGamma": 2720000,
+            "netGamma": -8760000,
             "callWall": 157.5,
-            "putWall": 152.5,
-            "flip": 158.77
+            "putWall": 148
           },
           {
             "expiry": "2026-10-21",
-            "netGamma": -193000,
+            "netGamma": -1120000,
             "callWall": 162.5,
             "putWall": 147
           }
@@ -106,47 +106,45 @@
     {
       "symbol": "NVDA",
       "name": "Nvidia",
-      "spot": 221.3,
-      "changePct": -3.16,
-      "takeaway": "NVDA indicated $217.38 pre-market (−1.77%) after Wednesday’s −3.16% close, as hot inflation and AI-credit jitters extend the chip selloff.",
+      "spot": 217.23,
+      "changePct": -1.84,
+      "takeaway": "NVDA indicated ~flat pre-market after a −1.84% Thu close; Huang said Nvidia need not backstop CoreWeave, Mercedes partnership expanded, KeyBanc kept Overweight $275 with Rubin HBM risk note.",
       "news": [
         {
-          "text": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"
+          "text": "Why Nvidia is rising in premarket vs AMD, Broadcom, Intel; Huang on CoreWeave; Mercedes partnership",
+          "url": "https://blog.tipranks.com/why-nvidia-stock-is-rising-while-amd-broadcom-and-intel-stocks-are-falling-in-premarket-today-october-16/"
         },
         {
-          "text": "North American morning briefing: tech selloff extends into a second day",
-          "url": "https://www.morningstar.com/news/dow-jones/202610152394/north-american-morning-briefing-stock-futures-mixed-as-tech-selloff-extends-into-second-day"
+          "text": "KeyBanc maintains Overweight, $275 PT; flags Rubin HBM bottlenecks",
+          "url": "https://gmteight.com/flash/detail/1279245"
         },
         {
-          "text": "US September PPI 6.3% vs 5.3% expected",
-          "url": "https://investinglive.com/news/us-september-ppi-6-3-vs-5-3-expected/"
+          "text": "NVDA quote (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/NVDA/"
         }
       ],
       "gex": {
-        "callWall": 240,
-        "putWall": 205,
-        "flip": 210.58,
+        "callWall": 250,
+        "putWall": 217.5,
+        "flip": 213.25,
         "expirations": [
           {
             "expiry": "2026-10-16",
-            "netGamma": 174000000,
+            "netGamma": -23500000,
             "callWall": 220,
-            "putWall": 222.5,
-            "flip": 228.92
+            "putWall": 217.5
           },
           {
             "expiry": "2026-10-19",
-            "netGamma": 2520000,
-            "callWall": 235,
-            "putWall": 230
+            "netGamma": -9400000,
+            "callWall": 225,
+            "putWall": 217.5
           },
           {
             "expiry": "2026-10-21",
-            "netGamma": 791000,
+            "netGamma": -1630000,
             "callWall": 230,
-            "putWall": 220,
-            "flip": 239.96
+            "putWall": 220
           }
         ]
       }
