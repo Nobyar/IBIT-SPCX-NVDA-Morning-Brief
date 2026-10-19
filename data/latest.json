@@ -1,152 +1,93 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T08:37:00-04:00",
-  "closeAsOf": "2026-10-15",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T08:45:00-04:00",
+  "closeAsOf": "2026-10-16",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": null,
+  "note": "Options GEX levels unavailable this morning (data source sign-in expired); prices and news are current.",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 46.59,
-      "changePct": 0.76,
-      "takeaway": "IBIT indicated ~$46.56 pre-market (−0.06%) after a +0.76% Thu close; US spot BTC ETFs flipped to +$5.1M Oct 15 with IBIT +$16.8M, BTC near $82.2K.",
+      "spot": 46.15,
+      "changePct": -0.94,
+      "takeaway": "Up ~1.3% pre-market ($46.74) as bitcoin rises to ~$82.5K over the weekend, but IBIT bled $71.8M Friday and $165.4M on the week.",
       "news": [
         {
-          "text": "US spot Bitcoin ETFs +$5.06M net Oct 15; IBIT leads +$16.79M",
-          "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-see-5-06m-net-inflow-on-october-15-blackrock-s-ibit-leads-with-16-79m"
+          "text": "Spot BTC ETFs -$82.4M Friday (IBIT -$71.8M); week -$228.4M (Farside)",
+          "url": "https://farside.co.uk/btc/"
         },
         {
-          "text": "Bitcoin ETFs add $5.06M while Ether funds lose $60.22M",
-          "url": "https://coinscreamer.com/bitcoin-ethereum-etf-flows-october-15/"
+          "text": "24/7 Wall St: BlackRock's Bitcoin ETF lost $165M in a week",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/10/18/blackrocks-bitcoin-etf-lost-165-million-in-a-week-is-wall-street-pulling-back/"
         },
         {
-          "text": "Farside: total +$5.1M; IBIT +$16.8M",
-          "url": "https://blockchain.news/flashnews/bitcoin-etf-5-1m-net-inflow-reported"
-        },
-        {
-          "text": "IBIT quote (Yahoo Finance)",
-          "url": "https://finance.yahoo.com/quote/IBIT/"
+          "text": "Bitcoin ~$82,519 Monday morning, up ~1.3% since Friday's close (Coinbase)",
+          "url": "https://api.exchange.coinbase.com/products/BTC-USD/ticker"
         }
       ],
       "gex": {
-        "callWall": 47,
-        "putWall": 35,
-        "flip": 43.85,
-        "expirations": [
-          {
-            "expiry": "2026-10-16",
-            "netGamma": 68100000,
-            "callWall": 47,
-            "putWall": 44.5,
-            "flip": 46.65
-          },
-          {
-            "expiry": "2026-10-19",
-            "netGamma": -194000,
-            "callWall": 47.5,
-            "putWall": 46
-          },
-          {
-            "expiry": "2026-10-20",
-            "netGamma": 410000,
-            "callWall": 47,
-            "putWall": 46,
-            "flip": 47.88
-          }
-        ]
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
       }
     },
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 148.62,
-      "changePct": -2.33,
-      "takeaway": "SPCX indicated ~$150.61 pre-market (+1.34%) after a −2.33% Thu close; Evercore ISI raised PT to $275 (Outperform) with Oct 26 lockup still ahead.",
+      "spot": 146.03,
+      "changePct": -1.74,
+      "takeaway": "Up ~1.2% pre-market ($147.83) after its worst week in three months; Q3 results Tue Oct 20 after the close, then lockup releases Oct 22 (~1.3B shares) and Oct 26 (328.4M).",
       "news": [
         {
-          "text": "Evercore ISI raises SpaceX price target to $275 from $230, maintains Outperform",
-          "url": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html"
+          "text": "CNBC: Musk pledges one SpaceX share to every US child next year",
+          "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html"
         },
         {
-          "text": "Oct 26 lockup: ~319M insider shares become eligible for sale",
-          "url": "https://www.ibtimes.sg/spacex-ipo-faces-october-26-test-319-million-insider-shares-become-eligible-sale-95182"
+          "text": "Q3 preview: consensus EPS $0.14, revenue $12.89B; Moderate Buy, avg target $217.50 (TipRanks)",
+          "url": "https://www.tipranks.com/news/spacex-stock-forecast-what-analysts-expect-ahead-of-october-20-earnings"
         },
         {
-          "text": "SPCX quote (Yahoo Finance)",
-          "url": "https://finance.yahoo.com/quote/SPCX/"
+          "text": "Lockup calendar: next releases Oct 22 and Oct 26",
+          "url": "https://stockanalysis.com/ipos/lockups/"
         }
       ],
       "gex": {
-        "callWall": 200,
-        "putWall": 150,
-        "flip": 151.86,
-        "expirations": [
-          {
-            "expiry": "2026-10-16",
-            "netGamma": -36400000,
-            "callWall": 160,
-            "putWall": 150
-          },
-          {
-            "expiry": "2026-10-19",
-            "netGamma": -8760000,
-            "callWall": 157.5,
-            "putWall": 148
-          },
-          {
-            "expiry": "2026-10-21",
-            "netGamma": -1120000,
-            "callWall": 162.5,
-            "putWall": 147
-          }
-        ]
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
       }
     },
     {
       "symbol": "NVDA",
-      "name": "Nvidia",
-      "spot": 217.23,
-      "changePct": -1.84,
-      "takeaway": "NVDA indicated ~flat pre-market after a −1.84% Thu close; Huang said Nvidia need not backstop CoreWeave, Mercedes partnership expanded, KeyBanc kept Overweight $275 with Rubin HBM risk note.",
+      "name": "NVIDIA",
+      "spot": 214.13,
+      "changePct": -1.43,
+      "takeaway": "Up ~2% pre-market ($218.30) leading a chip rebound after a 6.6% weekly drop; Germany AI partnership announced today and GTC Berlin runs Oct 20–22.",
       "news": [
         {
-          "text": "Why Nvidia is rising in premarket vs AMD, Broadcom, Intel; Huang on CoreWeave; Mercedes partnership",
-          "url": "https://blog.tipranks.com/why-nvidia-stock-is-rising-while-amd-broadcom-and-intel-stocks-are-falling-in-premarket-today-october-16/"
+          "text": "Germany announces AI partnership with Nvidia at Invest in Germany Summit",
+          "url": "https://www.deutschland.de/en/news/merz-announces-ai-partnership-with-nvidia"
         },
         {
-          "text": "KeyBanc maintains Overweight, $275 PT; flags Rubin HBM bottlenecks",
+          "text": "Arete raises NVDA target to $369 from $283",
+          "url": "https://econotimes.com/NVIDIA-Shares-Fall-1-43-as-Analyst-Targets-Top-the-214-Close-1756127"
+        },
+        {
+          "text": "KeyBanc keeps Overweight/$275, trims 2026 Rubin estimate on HBM4 delays",
           "url": "https://gmteight.com/flash/detail/1279245"
         },
         {
-          "text": "NVDA quote (Yahoo Finance)",
-          "url": "https://finance.yahoo.com/quote/NVDA/"
+          "text": "WSJ: Nasdaq futures +1.2%, Nvidia up 2%+ pre-market",
+          "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-investors-make-cautious-return-to-risk-cd3b0e6a"
         }
       ],
       "gex": {
-        "callWall": 250,
-        "putWall": 217.5,
-        "flip": 213.25,
-        "expirations": [
-          {
-            "expiry": "2026-10-16",
-            "netGamma": -23500000,
-            "callWall": 220,
-            "putWall": 217.5
-          },
-          {
-            "expiry": "2026-10-19",
-            "netGamma": -9400000,
-            "callWall": 225,
-            "putWall": 217.5
-          },
-          {
-            "expiry": "2026-10-21",
-            "netGamma": -1630000,
-            "callWall": 230,
-            "putWall": 220
-          }
-        ]
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
       }
     }
   ]
