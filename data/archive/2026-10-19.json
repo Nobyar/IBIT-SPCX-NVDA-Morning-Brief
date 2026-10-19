@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T08:45:00-04:00",
+  "closeAsOf": "2026-10-16",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "Options GEX levels unavailable this morning (data source sign-in expired); prices and news are current.",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.15,
+      "changePct": -0.94,
+      "takeaway": "Up ~1.3% pre-market ($46.74) as bitcoin rises to ~$82.5K over the weekend, but IBIT bled $71.8M Friday and $165.4M on the week.",
+      "news": [
+        {
+          "text": "Spot BTC ETFs -$82.4M Friday (IBIT -$71.8M); week -$228.4M (Farside)",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "text": "24/7 Wall St: BlackRock's Bitcoin ETF lost $165M in a week",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/10/18/blackrocks-bitcoin-etf-lost-165-million-in-a-week-is-wall-street-pulling-back/"
+        },
+        {
+          "text": "Bitcoin ~$82,519 Monday morning, up ~1.3% since Friday's close (Coinbase)",
+          "url": "https://api.exchange.coinbase.com/products/BTC-USD/ticker"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 146.03,
+      "changePct": -1.74,
+      "takeaway": "Up ~1.2% pre-market ($147.83) after its worst week in three months; Q3 results Tue Oct 20 after the close, then lockup releases Oct 22 (~1.3B shares) and Oct 26 (328.4M).",
+      "news": [
+        {
+          "text": "CNBC: Musk pledges one SpaceX share to every US child next year",
+          "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html"
+        },
+        {
+          "text": "Q3 preview: consensus EPS $0.14, revenue $12.89B; Moderate Buy, avg target $217.50 (TipRanks)",
+          "url": "https://www.tipranks.com/news/spacex-stock-forecast-what-analysts-expect-ahead-of-october-20-earnings"
+        },
+        {
+          "text": "Lockup calendar: next releases Oct 22 and Oct 26",
+          "url": "https://stockanalysis.com/ipos/lockups/"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 214.13,
+      "changePct": -1.43,
+      "takeaway": "Up ~2% pre-market ($218.30) leading a chip rebound after a 6.6% weekly drop; Germany AI partnership announced today and GTC Berlin runs Oct 20–22.",
+      "news": [
+        {
+          "text": "Germany announces AI partnership with Nvidia at Invest in Germany Summit",
+          "url": "https://www.deutschland.de/en/news/merz-announces-ai-partnership-with-nvidia"
+        },
+        {
+          "text": "Arete raises NVDA target to $369 from $283",
+          "url": "https://econotimes.com/NVIDIA-Shares-Fall-1-43-as-Analyst-Targets-Top-the-214-Close-1756127"
+        },
+        {
+          "text": "KeyBanc keeps Overweight/$275, trims 2026 Rubin estimate on HBM4 delays",
+          "url": "https://gmteight.com/flash/detail/1279245"
+        },
+        {
+          "text": "WSJ: Nasdaq futures +1.2%, Nvidia up 2%+ pre-market",
+          "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-investors-make-cautious-return-to-risk-cd3b0e6a"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}
