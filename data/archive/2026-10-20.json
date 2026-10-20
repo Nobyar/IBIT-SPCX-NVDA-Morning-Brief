@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T08:40:00-04:00",
+  "closeAsOf": "2026-10-19",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "Options GEX levels unavailable this morning (data source sign-in expired); prices and news are current.",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.30,
+      "changePct": 0.32,
+      "takeaway": "Down ~0.5% pre-market ($46.08) as bitcoin slips to ~$81.4K, despite a record $665.2M IBIT inflow on Monday.",
+      "news": [
+        {"text": "Spot BTC ETFs +$526.7M Monday; IBIT +$665.2M, FBTC -$83.6M, GBTC -$54.9M (Farside)", "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"},
+        {"text": "BlackRock files for PBIT, a Bitcoin Managed Protection ETF built on IBIT options", "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm"},
+        {"text": "Bitcoin ~$81,384 at 8:35 AM ET, down ~1.4% in 24 hours (Yahoo Finance)", "url": "https://finance.yahoo.com/quote/BTC-USD/"}
+      ],
+      "gex": {"callWall": null, "putWall": null, "flip": null, "expirations": []}
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 147.96,
+      "changePct": 1.32,
+      "takeaway": "Down ~1.2% pre-market ($146.25) ahead of Q3 results tonight after the close; ~1.31B shares unlock Thu Oct 22, then 328.4M on Oct 26.",
+      "news": [
+        {"text": "SpaceX to post Q3 2026 results and host webcast Oct 20 at 4:30 PM ET", "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"},
+        {"text": "Q3 preview: consensus EPS $0.14, revenue $12.89B; avg target $217.50 (TipRanks)", "url": "https://www.tipranks.com/news/spacex-stock-forecast-what-analysts-expect-ahead-of-october-20-earnings"},
+        {"text": "Earnings to test Musk's AI spending ambitions as merger talk grows (Investing.com)", "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-earnings-to-test-musks-ai-spending-ambitions-as-merger-talk-grows-4957046"},
+        {"text": "Lockup calendar: ~1.31B shares Oct 22, 328.4M Oct 26", "url": "https://stockanalysis.com/ipos/lockups/"}
+      ],
+      "gex": {"callWall": null, "putWall": null, "flip": null, "expirations": []}
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 217.09,
+      "changePct": 1.38,
+      "takeaway": "Down ~0.9% pre-market ($215.16) as AI names weaken, even as Reuters reports $35B+ of Chinese orders for RTX PRO 5500 cards.",
+      "news": [
+        {"text": "Reuters: ByteDance, Alibaba, Tencent place over $35B of Nvidia chip orders", "url": "https://www.investing.com/news/stock-market-news/exclusivebytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-4959231"},
+        {"text": "Nasdaq futures fall as oil prices jump, key earnings loom; Nvidia slips pre-market", "url": "https://www.streetinsider.com/General+News/Nasdaq+futures+fall+as+oil+prices+jump%2C+key+earnings+loom/27206044.html"},
+        {"text": "Arete raises NVDA target to $369 from $283", "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/nvidia-stock-arete-lifts-target-to-usd-369-pre-market/70357609"}
+      ],
+      "gex": {"callWall": null, "putWall": null, "flip": null, "expirations": []}
+    }
+  ]
+}
