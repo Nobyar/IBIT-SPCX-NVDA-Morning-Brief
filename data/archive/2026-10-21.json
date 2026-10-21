@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T08:40:00-04:00",
+  "closeAsOf": "2026-10-20",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX data unavailable today (data source sign-in expired).",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.71,
+      "changePct": 0.89,
+      "takeaway": "Up 1.31% pre-market ($47.32) as bitcoin pushes toward $84K ($83,539), but flows slowed to +$23.2M after Monday's surge.",
+      "news": [
+        {
+          "text": "Spot BTC ETFs +$23.2M on Oct 20; IBIT +$29.9M, FBTC +$3.6M, BITB -$10.3M (Farside)",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "text": "BlackRock files for the iShares Bitcoin Managed Protection ETF (PBIT), a buffer fund on IBIT options",
+          "url": "https://finance.yahoo.com/news/blackrock-files-third-bitcoin-etf-143516549.html"
+        },
+        {
+          "text": "Bitcoin ETFs post their best day in nearly a month as BlackRock does all the buying (Decrypt)",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-best-day-183104727.html"
+        },
+        {
+          "text": "FINMA approves Switzerland's first retail spot Bitcoin ETF",
+          "url": "https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2026/10/20261020-mm-finma-bitcoin-etf.pdf"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 147.79,
+      "changePct": -0.11,
+      "takeaway": "Up 9.05% pre-market ($161.17) after a strong Q3 beat and a wave of price-target raises; lockup supply on Oct 22 and Oct 26 is the near-term risk.",
+      "news": [
+        {
+          "text": "Q3 results: revenue $14.58B (+161% y/y), operating income $2.79B, net income $4.4B, adjusted EBITDA $8.8B; Space $1.77B, Connectivity $5.25B, Super Intelligence $7.56B; 13.6M Starlink subscribers; capex $19.6B",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+        },
+        {
+          "text": "JPMorgan lifts SPCX to $500 from $240; Barclays to $300 from $254, Wells Fargo to $274, and Citi to $240 after the Q3 beat",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "text": "Consensus average price target $222.71 across 38 analysts",
+          "url": "https://stockanalysis.com/stocks/spcx/ratings/"
+        },
+        {
+          "text": "Lockup calendar: up to 1.3B shares eligible Oct 22, up to 328.4M on Oct 26, about 798M on Dec 8",
+          "url": "https://stockanalysis.com/ipos/lockups/"
+        },
+        {
+          "text": "Musk: SpaceX and Tesla special committees are evaluating a possible merger; no deal agreed",
+          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 216.47,
+      "changePct": -0.29,
+      "takeaway": "Up 1.69% pre-market ($220.12) on the DSX POD unveil and AI demand news, with resistance around $222–$226.",
+      "news": [
+        {
+          "text": "GTC Berlin: Jensen Huang unveils DSX POD, a containerized Vera Rubin AI factory, with units in early 2027",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-gtc-berlin-keynote-jensen-114237092.html"
+        },
+        {
+          "text": "CrowdStrike and Nvidia collaborate to extend AI security to microchips",
+          "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-nvidia-collaborate-extend-ai-122414020.html"
+        },
+        {
+          "text": "Supermicro guidance raise lifts Nvidia and other AI names in pre-market",
+          "url": "https://invezz.com/news/2026/10/21/why-nvidia-amd-and-intel-stocks-are-surging-up-to-2-in-premarket-today/"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}
