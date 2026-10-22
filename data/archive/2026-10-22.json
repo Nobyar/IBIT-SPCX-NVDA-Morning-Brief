@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T08:40:00-04:00",
+  "closeAsOf": "2026-10-21",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX data unavailable today (data source sign-in expired).",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 47.84,
+      "changePct": 2.42,
+      "takeaway": "Down 3.34% pre-market ($46.24); strong Wednesday inflows aren't holding up the price as bitcoin falls with oil-driven risk-off.",
+      "news": [
+        {
+          "text": "Bitcoin ~$81,810 at 7:15 AM ET, down from an $84,024 open, as Brent above $111 weighed on risk assets",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html"
+        },
+        {
+          "text": "US spot BTC ETFs +$524.8M on Oct 21 (third straight inflow day, about +$1.07B Oct 19–21); IBIT +$235.0M, FBTC +$212.7M, no outflows (Farside)",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "text": "No new IBIT SEC filings since Oct 19",
+          "url": "https://data.sec.gov/submissions/CIK0001980994.json"
+        },
+        {
+          "text": "X posts say BlackRock filed Oct 19 for a managed-protect bitcoin ETF (PBIT) using IBIT options; not confirmed on EDGAR",
+          "url": "https://x.com/UZX_Official/status/2113031935606047116"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 159.31,
+      "changePct": 7.79,
+      "takeaway": "Down 3.16% pre-market ($154.27), giving back part of Wednesday's earnings rally as up to 1.3B shares unlock today and Musk's Tesla-merger talk draws scrutiny.",
+      "news": [
+        {
+          "text": "Oct 21 close $159.31 (+7.79%) on 220.8M shares",
+          "url": "https://stockanalysis.com/stocks/spcx/history/"
+        },
+        {
+          "text": "8-K with the Q3 earnings release accepted Oct 20 around 8 PM ET; no Form 4s since",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm"
+        },
+        {
+          "text": "Q3 revenue $14.6B (+161%) and net income $4.4B; Musk floated a Tesla merger",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
+        },
+        {
+          "text": "Musk's public endorsement of a SpaceX-Tesla deal may complicate talks (Reuters)",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606"
+        },
+        {
+          "text": "Lockup: up to 1.3B shares eligible Oct 22; next tranche up to 328.4M shares, first tradable Monday Oct 26",
+          "url": "https://stockanalysis.com/ipos/lockups/"
+        },
+        {
+          "text": "Oct 21 targets: JPMorgan $500 from $240 (Overweight), Cantor $345 from $246, Barclays $300 from $254, Wells Fargo $274 from $214, Clear Street $248, Citi $240, UBS $230, TD Cowen $224; Morgan Stanley held $300",
+          "url": "https://www.teslarati.com/spacex-spcx-price-target-boosts-bullish-earnings-call/"
+        },
+        {
+          "text": "Goldman Sachs raises SPCX price target to $245",
+          "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-spacex-stock-price-target-to-245-on-growth-outlook-93CH-4962792"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 221.97,
+      "changePct": 2.54,
+      "takeaway": "Down 2.10% pre-market ($217.31) with chip peers on macro and AI-spending worries, not company news; Street still at Buy.",
+      "news": [
+        {
+          "text": "Morgan Stanley Buy $300 and Citi Buy $315 reiterated Oct 22; Goldman and Needham Buy $300 on Oct 21",
+          "url": "https://stockanalysis.com/stocks/nvda/ratings/"
+        },
+        {
+          "text": "No new SEC filings or insider trades in the last 24 hours (last Form 4/A Oct 13)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=&dateb=&owner=include&count=40"
+        },
+        {
+          "text": "NVDA, AMD, and MU lower on AI-spending worries",
+          "url": "https://invezz.com/news/2026/10/22/nvidia-amd-and-micron-plunge-sharply-why-wall-street-is-punishing-ai-spending-either-way/"
+        },
+        {
+          "text": "Stock futures tumble as Mideast tensions push Brent above $112",
+          "url": "https://www.morningstar.com/news/dow-jones/202610223696/north-american-morning-briefing-stock-futures-tumble-mideast-tensions-push-oil-higher"
+        },
+        {
+          "text": "Google Cloud Vera Rubin A5X instances generally available in November",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}
