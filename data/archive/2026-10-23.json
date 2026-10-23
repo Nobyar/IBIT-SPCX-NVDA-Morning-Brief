@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T08:33:00-04:00",
+  "closeAsOf": "2026-10-22",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX unavailable today (data source sign-in expired)",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 46.06,
+      "changePct": -3.72,
+      "takeaway": "Pre-market $46.21 (+0.33% at 8:33 AM ET); BTC $81,644.90 (+0.03% over 24h), briefly below $81K overnight. Small bounce after a risk-off day, but Thursday's ETF flows turned sharply negative.",
+      "news": [
+        {
+          "text": "Thu Oct 22 spot Bitcoin ETF flows (Farside): total -$635.6M, the largest total outflow in ~4 months; IBIT -$254.1M, the largest daily IBIT outflow since Jun 29; FBTC -217.5, ARKB -109.4, GBTC -29.5, BITB -27.4, MSBT +2.3. Wed Oct 21 total +$524.8M, IBIT +$235.0M. Week to date Mon-Thu: IBIT +$676.0M, total +$439.1M.",
+          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+        },
+        {
+          "text": "FarsideUK on Thursday's spot Bitcoin ETF outflows",
+          "url": "https://x.com/FarsideUK/status/2113477274301583851"
+        },
+        {
+          "text": "IBIT pre-market $46.21 (+0.33%) as of 8:33 AM ET",
+          "url": "https://finance.yahoo.com/quote/IBIT"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 144.75,
+      "changePct": -9.14,
+      "takeaway": "Pre-market $147.97 (+2.22% at 8:33 AM ET). Thursday gave back the post-earnings pop on capex/debt fears; pre-market bouncing with another unlock Monday.",
+      "news": [
+        {
+          "text": "Q3 10-Q: revenue $14.575B vs $5.576B a year ago, net income $4.404B, diluted EPS $0.35",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+        },
+        {
+          "text": "S-8 registering shares for assumed options from the Cursor (Anysphere) and Screenplay Studios acquisitions",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066903/spacex-cursorformsx8.htm"
+        },
+        {
+          "text": "Lockup: up to 328.4M shares release Sat Oct 24, first tradable Mon Oct 26 (~$47.5B); 1.3B-share tranche released Thu Oct 22; Musk's ~6.42B shares locked until Jun 2027",
+          "url": "https://stockanalysis.com/ipos/lockups/"
+        },
+        {
+          "text": "Analyst price targets Oct 21-22: JPMorgan $240 to $500, Barclays $254 to $300, Evercore $275 to $300, BofA $235 to $275, Wells Fargo $214 to $274, Pivotal $230 to $260, Goldman $230 to $245, Citi $200 to $240, UBS $210 to $230; Phillip Securities upgraded to Buy ($75 to $250); DZ Bank Sell; Daiwa Neutral $140; median PT $240",
+          "url": "https://stockanalysis.com/stocks/spcx/forecast/"
+        },
+        {
+          "text": "Q4 capex guide $35-40B (vs $19.6B in Q3) and $36.1B of debt drove Thursday's drop",
+          "url": "https://www.fool.com/investing/2026/10/22/why-spacex-stock-dropped-on-thursday/"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 212.21,
+      "changePct": -4.40,
+      "takeaway": "Pre-market $212.34 (+0.06% at 8:33 AM ET). Flat pre-market after the AI-capex-funding selloff; watch ~$210-211 support.",
+      "news": [
+        {
+          "text": "Oct 22: Needham Buy $300 reiterated, Morgan Stanley Overweight and top pick $300, BNP Paribas Outperform $345; consensus ~$323",
+          "url": "https://www.tradingview.com/news/tradingview:f3f0ab7996601:0-needham-reiterates-buy-rating-on-nvidia-300-price-target/"
+        },
+        {
+          "text": "Jensen Huang told CNBC there is a scarcity of capital for AI infrastructure",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-101348956.html"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}

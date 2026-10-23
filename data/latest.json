@@ -1,32 +1,28 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T08:40:00-04:00",
-  "closeAsOf": "2026-10-21",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T08:33:00-04:00",
+  "closeAsOf": "2026-10-22",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": "GEX data unavailable today (data source sign-in expired).",
+  "note": "GEX unavailable today (data source sign-in expired)",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 47.84,
-      "changePct": 2.42,
-      "takeaway": "Down 3.34% pre-market ($46.24); strong Wednesday inflows aren't holding up the price as bitcoin falls with oil-driven risk-off.",
+      "spot": 46.06,
+      "changePct": -3.72,
+      "takeaway": "Pre-market $46.21 (+0.33% at 8:33 AM ET); BTC $81,644.90 (+0.03% over 24h), briefly below $81K overnight. Small bounce after a risk-off day, but Thursday's ETF flows turned sharply negative.",
       "news": [
         {
-          "text": "Bitcoin ~$81,810 at 7:15 AM ET, down from an $84,024 open, as Brent above $111 weighed on risk assets",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html"
+          "text": "Thu Oct 22 spot Bitcoin ETF flows (Farside): total -$635.6M, the largest total outflow in ~4 months; IBIT -$254.1M, the largest daily IBIT outflow since Jun 29; FBTC -217.5, ARKB -109.4, GBTC -29.5, BITB -27.4, MSBT +2.3. Wed Oct 21 total +$524.8M, IBIT +$235.0M. Week to date Mon-Thu: IBIT +$676.0M, total +$439.1M.",
+          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
         },
         {
-          "text": "US spot BTC ETFs +$524.8M on Oct 21 (third straight inflow day, about +$1.07B Oct 19–21); IBIT +$235.0M, FBTC +$212.7M, no outflows (Farside)",
-          "url": "https://farside.co.uk/btc/"
+          "text": "FarsideUK on Thursday's spot Bitcoin ETF outflows",
+          "url": "https://x.com/FarsideUK/status/2113477274301583851"
         },
         {
-          "text": "No new IBIT SEC filings since Oct 19",
-          "url": "https://data.sec.gov/submissions/CIK0001980994.json"
-        },
-        {
-          "text": "X posts say BlackRock filed Oct 19 for a managed-protect bitcoin ETF (PBIT) using IBIT options; not confirmed on EDGAR",
-          "url": "https://x.com/UZX_Official/status/2113031935606047116"
+          "text": "IBIT pre-market $46.21 (+0.33%) as of 8:33 AM ET",
+          "url": "https://finance.yahoo.com/quote/IBIT"
         }
       ],
       "gex": {
@@ -39,37 +35,29 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 159.31,
-      "changePct": 7.79,
-      "takeaway": "Down 3.16% pre-market ($154.27), giving back part of Wednesday's earnings rally as up to 1.3B shares unlock today and Musk's Tesla-merger talk draws scrutiny.",
+      "spot": 144.75,
+      "changePct": -9.14,
+      "takeaway": "Pre-market $147.97 (+2.22% at 8:33 AM ET). Thursday gave back the post-earnings pop on capex/debt fears; pre-market bouncing with another unlock Monday.",
       "news": [
         {
-          "text": "Oct 21 close $159.31 (+7.79%) on 220.8M shares",
-          "url": "https://stockanalysis.com/stocks/spcx/history/"
+          "text": "Q3 10-Q: revenue $14.575B vs $5.576B a year ago, net income $4.404B, diluted EPS $0.35",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
         },
         {
-          "text": "8-K with the Q3 earnings release accepted Oct 20 around 8 PM ET; no Form 4s since",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm"
+          "text": "S-8 registering shares for assumed options from the Cursor (Anysphere) and Screenplay Studios acquisitions",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066903/spacex-cursorformsx8.htm"
         },
         {
-          "text": "Q3 revenue $14.6B (+161%) and net income $4.4B; Musk floated a Tesla merger",
-          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
-        },
-        {
-          "text": "Musk's public endorsement of a SpaceX-Tesla deal may complicate talks (Reuters)",
-          "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606"
-        },
-        {
-          "text": "Lockup: up to 1.3B shares eligible Oct 22; next tranche up to 328.4M shares, first tradable Monday Oct 26",
+          "text": "Lockup: up to 328.4M shares release Sat Oct 24, first tradable Mon Oct 26 (~$47.5B); 1.3B-share tranche released Thu Oct 22; Musk's ~6.42B shares locked until Jun 2027",
           "url": "https://stockanalysis.com/ipos/lockups/"
         },
         {
-          "text": "Oct 21 targets: JPMorgan $500 from $240 (Overweight), Cantor $345 from $246, Barclays $300 from $254, Wells Fargo $274 from $214, Clear Street $248, Citi $240, UBS $230, TD Cowen $224; Morgan Stanley held $300",
-          "url": "https://www.teslarati.com/spacex-spcx-price-target-boosts-bullish-earnings-call/"
+          "text": "Analyst price targets Oct 21-22: JPMorgan $240 to $500, Barclays $254 to $300, Evercore $275 to $300, BofA $235 to $275, Wells Fargo $214 to $274, Pivotal $230 to $260, Goldman $230 to $245, Citi $200 to $240, UBS $210 to $230; Phillip Securities upgraded to Buy ($75 to $250); DZ Bank Sell; Daiwa Neutral $140; median PT $240",
+          "url": "https://stockanalysis.com/stocks/spcx/forecast/"
         },
         {
-          "text": "Goldman Sachs raises SPCX price target to $245",
-          "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-spacex-stock-price-target-to-245-on-growth-outlook-93CH-4962792"
+          "text": "Q4 capex guide $35-40B (vs $19.6B in Q3) and $36.1B of debt drove Thursday's drop",
+          "url": "https://www.fool.com/investing/2026/10/22/why-spacex-stock-dropped-on-thursday/"
         }
       ],
       "gex": {
@@ -82,29 +70,17 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "spot": 221.97,
-      "changePct": 2.54,
-      "takeaway": "Down 2.10% pre-market ($217.31) with chip peers on macro and AI-spending worries, not company news; Street still at Buy.",
+      "spot": 212.21,
+      "changePct": -4.40,
+      "takeaway": "Pre-market $212.34 (+0.06% at 8:33 AM ET). Flat pre-market after the AI-capex-funding selloff; watch ~$210-211 support.",
       "news": [
         {
-          "text": "Morgan Stanley Buy $300 and Citi Buy $315 reiterated Oct 22; Goldman and Needham Buy $300 on Oct 21",
-          "url": "https://stockanalysis.com/stocks/nvda/ratings/"
+          "text": "Oct 22: Needham Buy $300 reiterated, Morgan Stanley Overweight and top pick $300, BNP Paribas Outperform $345; consensus ~$323",
+          "url": "https://www.tradingview.com/news/tradingview:f3f0ab7996601:0-needham-reiterates-buy-rating-on-nvidia-300-price-target/"
         },
         {
-          "text": "No new SEC filings or insider trades in the last 24 hours (last Form 4/A Oct 13)",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=&dateb=&owner=include&count=40"
-        },
-        {
-          "text": "NVDA, AMD, and MU lower on AI-spending worries",
-          "url": "https://invezz.com/news/2026/10/22/nvidia-amd-and-micron-plunge-sharply-why-wall-street-is-punishing-ai-spending-either-way/"
-        },
-        {
-          "text": "Stock futures tumble as Mideast tensions push Brent above $112",
-          "url": "https://www.morningstar.com/news/dow-jones/202610223696/north-american-morning-briefing-stock-futures-tumble-mideast-tensions-push-oil-higher"
-        },
-        {
-          "text": "Google Cloud Vera Rubin A5X instances generally available in November",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+          "text": "Jensen Huang told CNBC there is a scarcity of capital for AI infrastructure",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-101348956.html"
         }
       ],
       "gex": {
