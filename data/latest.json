@@ -1,27 +1,31 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T08:33:00-04:00",
-  "closeAsOf": "2026-10-22",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T08:39:00-04:00",
+  "closeAsOf": "2026-10-23",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": "GEX unavailable today (data source sign-in expired)",
+  "note": "GEX unavailable today: data source session expired",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 46.06,
-      "changePct": -3.72,
-      "takeaway": "Pre-market $46.21 (+0.33% at 8:33 AM ET); BTC $81,644.90 (+0.03% over 24h), briefly below $81K overnight. Small bounce after a risk-off day, but Thursday's ETF flows turned sharply negative.",
+      "spot": 45.96,
+      "changePct": -0.22,
+      "takeaway": "Pre-market $45.40 (-1.2% at 8:39 AM ET); BTC ~$80,232 at 8:39 AM ET vs ~$81,312 Friday 4 PM ET (-1.3%). Saturday's low near $79,146 was the weakest in over a month, with more than $810M liquidated. No new SEC filings.",
       "news": [
         {
-          "text": "Thu Oct 22 spot Bitcoin ETF flows (Farside): total -$635.6M, the largest total outflow in ~4 months; IBIT -$254.1M, the largest daily IBIT outflow since Jun 29; FBTC -217.5, ARKB -109.4, GBTC -29.5, BITB -27.4, MSBT +2.3. Wed Oct 21 total +$524.8M, IBIT +$235.0M. Week to date Mon-Thu: IBIT +$676.0M, total +$439.1M.",
+          "text": "Fri Oct 23 spot Bitcoin ETF flows (Farside): total -$137.9M, IBIT -$110.3M. Thu Oct 22: total -$635.6M, the largest daily outflow since June, IBIT -$254.1M. Week Oct 19-23: total ~+$301M, IBIT +$565.7M.",
           "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
         },
         {
-          "text": "FarsideUK on Thursday's spot Bitcoin ETF outflows",
-          "url": "https://x.com/FarsideUK/status/2113477274301583851"
+          "text": "Bitcoin heading for its first monthly drop since June, recovering toward $80,800 ahead of the Fed meeting Oct 27-28; Franklin Templeton stock-and-BTC ETFs expected around Oct 27",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035"
         },
         {
-          "text": "IBIT pre-market $46.21 (+0.33%) as of 8:33 AM ET",
+          "text": "X tone cautious to bearish on back-to-back spot Bitcoin ETF outflows",
+          "url": "https://x.com/thepfund/status/2113956630413082662"
+        },
+        {
+          "text": "IBIT pre-market $45.40 (-1.2%) as of 8:39 AM ET",
           "url": "https://finance.yahoo.com/quote/IBIT"
         }
       ],
@@ -35,29 +39,29 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 144.75,
-      "changePct": -9.14,
-      "takeaway": "Pre-market $147.97 (+2.22% at 8:33 AM ET). Thursday gave back the post-earnings pop on capex/debt fears; pre-market bouncing with another unlock Monday.",
+      "spot": 147.49,
+      "changePct": 1.89,
+      "takeaway": "Pre-market $148.20 (+0.5% at 8:39 AM ET). Up to ~328.4M shares from the day-135 lockup can trade today, after the stock fell ~9% on Oct 22 when 1.3B shares unlocked. A Tesla filing shows a special committee evaluating a possible SpaceX tie-up. No new Form 4s. X is mixed: holders say supply is being absorbed, some traders are shorting into the unlock.",
       "news": [
         {
-          "text": "Q3 10-Q: revenue $14.575B vs $5.576B a year ago, net income $4.404B, diluted EPS $0.35",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+          "text": "8-K filed today at 8:00 AM ET: binding commitment dated Oct 24 for a GPU finance lease with an Apollo-managed entity, about $40B in total principal payments, expected to close by year end, leases starting in 1H 2027. Musk says the $40B GPU debt has closed; Bloomberg says pricing talks are ongoing.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
         },
         {
-          "text": "S-8 registering shares for assumed options from the Cursor (Anysphere) and Screenplay Studios acquisitions",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066903/spacex-cursorformsx8.htm"
+          "text": "Bernstein Outperform, price target raised to $268 from $248 today. Phillip Securities upgraded to Buy ($75 to $250) on Oct 22-23. Earlier last week: BofA $275, Barclays $300, Citi $240 (90-day upside catalyst watch), JPMorgan $240 to $500.",
+          "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-spacex-stock-price-target-on-ai-expansion-plans-93CH-4971542"
         },
         {
-          "text": "Lockup: up to 328.4M shares release Sat Oct 24, first tradable Mon Oct 26 (~$47.5B); 1.3B-share tranche released Thu Oct 22; Musk's ~6.42B shares locked until Jun 2027",
+          "text": "Lockup: day-135 release of up to ~328.4M shares eligible to trade today (Oct 26). Next unlock Dec 8 (~797.6M shares). Musk's stake locked until June 2027.",
           "url": "https://stockanalysis.com/ipos/lockups/"
         },
         {
-          "text": "Analyst price targets Oct 21-22: JPMorgan $240 to $500, Barclays $254 to $300, Evercore $275 to $300, BofA $235 to $275, Wells Fargo $214 to $274, Pivotal $230 to $260, Goldman $230 to $245, Citi $200 to $240, UBS $210 to $230; Phillip Securities upgraded to Buy ($75 to $250); DZ Bank Sell; Daiwa Neutral $140; median PT $240",
-          "url": "https://stockanalysis.com/stocks/spcx/forecast/"
+          "text": "SpaceX kicks off another potential fleecing of retail investors today (Oct. 26)",
+          "url": "https://www.fool.com/investing/2026/10/26/spacex-kicks-off-another-potential-fleecing-of-retail-investors-today-oct-26/"
         },
         {
-          "text": "Q4 capex guide $35-40B (vs $19.6B in Q3) and $36.1B of debt drove Thursday's drop",
-          "url": "https://www.fool.com/investing/2026/10/22/why-spacex-stock-dropped-on-thursday/"
+          "text": "SPCX pre-market $148.20 (+0.5%) as of 8:39 AM ET",
+          "url": "https://finance.yahoo.com/quote/SPCX"
         }
       ],
       "gex": {
@@ -70,17 +74,21 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "spot": 212.21,
-      "changePct": -4.40,
-      "takeaway": "Pre-market $212.34 (+0.06% at 8:33 AM ET). Flat pre-market after the AI-capex-funding selloff; watch ~$210-211 support.",
+      "spot": 210.96,
+      "changePct": -0.59,
+      "takeaway": "Pre-market $213.00 (+1.0% at 8:39 AM ET) on a thin print; AMD was -2% and MRVL -2.7% earlier. No new filings or insider trades. X is cautious and technical: about 13% off the peak, testing ~$210 support, with $200 in play on a break.",
       "news": [
         {
-          "text": "Oct 22: Needham Buy $300 reiterated, Morgan Stanley Overweight and top pick $300, BNP Paribas Outperform $345; consensus ~$323",
-          "url": "https://www.tradingview.com/news/tradingview:f3f0ab7996601:0-needham-reiterates-buy-rating-on-nvidia-300-price-target/"
+          "text": "Bernstein reiterated Buy with a $400 target and Barclays reiterated Buy at $275, both unchanged. Consensus price target $328.95 (range $180-$515).",
+          "url": "https://stockanalysis.com/stocks/nvda/ratings/"
         },
         {
-          "text": "Jensen Huang told CNBC there is a scarcity of capital for AI infrastructure",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-101348956.html"
+          "text": "Samsung and SK Hynix plan mass shipments of 8-layer HBM4 to Nvidia in Q2 2027. SpaceX's ~$40B GPU financing, megacap earnings this week (GOOGL, MSFT, AMZN), and the Fed on Wednesday are in focus as US stock futures edge up.",
+          "url": "https://www.investing.com/news/economy-news/us-stock-futures-edge-up-as-oil-falls-heading-into-earnings-barrage-4971878"
+        },
+        {
+          "text": "NVDA pre-market $213.00 (+1.0%) as of 8:39 AM ET (thin)",
+          "url": "https://finance.yahoo.com/quote/NVDA"
         }
       ],
       "gex": {
