@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T08:45:00-04:00",
+  "closeAsOf": "2026-10-26",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX unavailable today: data source sign-in expired",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 45.22,
+      "changePct": -1.61,
+      "takeaway": "Pre-market $45.12 (-0.22% at 7:53 AM ET). Bitcoin stuck near $80K; Monday broke a two-day ETF outflow streak but all inflow went to IBIT; Fed decision Wed Oct 28 2:00 PM ET is next catalyst. No new SEC filings since Oct 20. Analyst notes: none found.",
+      "news": [
+        {
+          "text": "Oct 26 close $45.22 (-$0.74, -1.61%); pre-market $45.12 (-0.22%) at 7:53 AM ET.",
+          "url": "https://stockanalysis.com/etf/ibit/history/"
+        },
+        {
+          "text": "Bitcoin ~$79,970, -0.35% 24h, range $79,366-$80,710.",
+          "url": "https://coinmarketcap.com/currencies/bitcoin/"
+        },
+        {
+          "text": "ETF flows Oct 26 (Farside): IBIT +$110.3M, total spot BTC ETFs +$110.3M; prior Oct 22 -$635.6M, Oct 23 -$137.9M total.",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "text": "X: cautious/neutral. @FarsideUK flow table.",
+          "url": "https://x.com/FarsideUK/status/2114926256613638574"
+        },
+        {
+          "text": "@OnchainLens reported 1,698 BTC (~$135.6M) moved from IBIT wallets to Coinbase Prime (interpretation unverified; often redemption handling).",
+          "url": "https://x.com/OnchainLens/status/2115042516366168267"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 146.90,
+      "changePct": -0.40,
+      "takeaway": "Pre-market $148.35 (+0.99% at 7:42 AM ET). Shrugged off the Oct 26 unlock of up to 328.4M shares; analysts keep raising targets; Apollo ~$40B GPU lease financing headlines. Insider Form 4s: none new on EDGAR since Oct 20.",
+      "news": [
+        {
+          "text": "Oct 26 close $146.90 (-0.40%), volume 103.2M; pre-market $148.35 (+0.99%) at 7:42 AM ET.",
+          "url": "https://stockanalysis.com/stocks/spcx/history/"
+        },
+        {
+          "text": "Lockup: up to 328.4M shares tradable Oct 26; next ~797.6M shares Dec 8; Musk's shares locked until June 2027.",
+          "url": "https://capitalsnitch.com/news/spacex-lockup-expiration-dates-spcx-unlock-schedule"
+        },
+        {
+          "text": "8-K Oct 26 (Item 8.01) binding commitment for GPU equipment finance lease with Apollo-managed entity, ~$40B principal over ~5 yrs.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
+        },
+        {
+          "text": "Bernstein PT $268 from $248, Outperform.",
+          "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-spacex-stock-price-target-on-ai-expansion-plans-93CH-4971542"
+        },
+        {
+          "text": "Deutsche Bank Buy, PT $250.",
+          "url": "https://www.cnbc.com/2026/10/26/spacexs-ai-infrastructure-plans-are-not-fully-priced-in-analysts-say.html"
+        },
+        {
+          "text": "SpaceX closes $40 billion debt deal for AI chips.",
+          "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
+        },
+        {
+          "text": "Tesla merger under special-committee review, no terms.",
+          "url": "https://www.fool.com/investing/2026/10/27/elon-musk-reveals-the-real-reason-he-hasn-t-confirmed-a-spacex-tesla-merger-will-happen/"
+        },
+        {
+          "text": "X: mostly bullish retail; merger debate.",
+          "url": "https://x.com/FLOWKINGOPTIONS/status/2114893188343451678"
+        },
+        {
+          "text": "X: mostly bullish retail; merger debate.",
+          "url": "https://x.com/Apocaron/status/2115013111279214964"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 216.00,
+      "changePct": 2.39,
+      "takeaway": "Pre-market $217.93 (+0.89% at 8:24 AM ET). Second day up on $3B investment in Meta's share offering / expanded partnership, plus AI chip strength after Anthropic IPO filing. No new SEC filings since Oct 20. No new Form 4s.",
+      "news": [
+        {
+          "text": "Oct 26 close $216.00 (+2.39%); pre-market $217.93 (+0.89%) at 8:24 AM ET.",
+          "url": "https://stockanalysis.com/stocks/nvda/history/"
+        },
+        {
+          "text": "Barclays Buy, $275 PT reiterated Oct 26.",
+          "url": "https://markets.businessinsider.com/news/stocks/new-buy-rating-for-nvidia-nvda-the-technology-giant-1036666152"
+        },
+        {
+          "text": "$3B investment in Meta's share offering / expanded partnership.",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-to-invest-3-bln-in-meta-share-offering-as-part-of-bigger-ai-partnership-4974236"
+        },
+        {
+          "text": "Why Broadcom, AMD, and Nvidia stocks are rising in premarket today, October 27.",
+          "url": "https://www.tipranks.com/news/why-broadcom-amd-and-nvidia-stocks-are-rising-in-premarket-today-october-27"
+        },
+        {
+          "text": "Risk: Nvidia's role as AI financier faces first big test as neoclouds take market hit.",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        },
+        {
+          "text": "X: bullish to mixed, skepticism on circular deals.",
+          "url": "https://x.com/stoqmarket/status/2115054234530140612"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}

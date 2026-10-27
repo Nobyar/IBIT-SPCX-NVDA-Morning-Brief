@@ -1,32 +1,36 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T08:39:00-04:00",
-  "closeAsOf": "2026-10-23",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T08:45:00-04:00",
+  "closeAsOf": "2026-10-26",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": "GEX unavailable today: data source session expired",
+  "note": "GEX unavailable today: data source sign-in expired",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 45.96,
-      "changePct": -0.22,
-      "takeaway": "Pre-market $45.40 (-1.2% at 8:39 AM ET); BTC ~$80,232 at 8:39 AM ET vs ~$81,312 Friday 4 PM ET (-1.3%). Saturday's low near $79,146 was the weakest in over a month, with more than $810M liquidated. No new SEC filings.",
+      "spot": 45.22,
+      "changePct": -1.61,
+      "takeaway": "Pre-market $45.12 (-0.22% at 7:53 AM ET). Bitcoin stuck near $80K; Monday broke a two-day ETF outflow streak but all inflow went to IBIT; Fed decision Wed Oct 28 2:00 PM ET is next catalyst. No new SEC filings since Oct 20. Analyst notes: none found.",
       "news": [
         {
-          "text": "Fri Oct 23 spot Bitcoin ETF flows (Farside): total -$137.9M, IBIT -$110.3M. Thu Oct 22: total -$635.6M, the largest daily outflow since June, IBIT -$254.1M. Week Oct 19-23: total ~+$301M, IBIT +$565.7M.",
-          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+          "text": "Oct 26 close $45.22 (-$0.74, -1.61%); pre-market $45.12 (-0.22%) at 7:53 AM ET.",
+          "url": "https://stockanalysis.com/etf/ibit/history/"
         },
         {
-          "text": "Bitcoin heading for its first monthly drop since June, recovering toward $80,800 ahead of the Fed meeting Oct 27-28; Franklin Templeton stock-and-BTC ETFs expected around Oct 27",
-          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035"
+          "text": "Bitcoin ~$79,970, -0.35% 24h, range $79,366-$80,710.",
+          "url": "https://coinmarketcap.com/currencies/bitcoin/"
         },
         {
-          "text": "X tone cautious to bearish on back-to-back spot Bitcoin ETF outflows",
-          "url": "https://x.com/thepfund/status/2113956630413082662"
+          "text": "ETF flows Oct 26 (Farside): IBIT +$110.3M, total spot BTC ETFs +$110.3M; prior Oct 22 -$635.6M, Oct 23 -$137.9M total.",
+          "url": "https://farside.co.uk/btc/"
         },
         {
-          "text": "IBIT pre-market $45.40 (-1.2%) as of 8:39 AM ET",
-          "url": "https://finance.yahoo.com/quote/IBIT"
+          "text": "X: cautious/neutral. @FarsideUK flow table.",
+          "url": "https://x.com/FarsideUK/status/2114926256613638574"
+        },
+        {
+          "text": "@OnchainLens reported 1,698 BTC (~$135.6M) moved from IBIT wallets to Coinbase Prime (interpretation unverified; often redemption handling).",
+          "url": "https://x.com/OnchainLens/status/2115042516366168267"
         }
       ],
       "gex": {
@@ -39,29 +43,45 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 147.49,
-      "changePct": 1.89,
-      "takeaway": "Pre-market $148.20 (+0.5% at 8:39 AM ET). Up to ~328.4M shares from the day-135 lockup can trade today, after the stock fell ~9% on Oct 22 when 1.3B shares unlocked. A Tesla filing shows a special committee evaluating a possible SpaceX tie-up. No new Form 4s. X is mixed: holders say supply is being absorbed, some traders are shorting into the unlock.",
+      "spot": 146.90,
+      "changePct": -0.40,
+      "takeaway": "Pre-market $148.35 (+0.99% at 7:42 AM ET). Shrugged off the Oct 26 unlock of up to 328.4M shares; analysts keep raising targets; Apollo ~$40B GPU lease financing headlines. Insider Form 4s: none new on EDGAR since Oct 20.",
       "news": [
         {
-          "text": "8-K filed today at 8:00 AM ET: binding commitment dated Oct 24 for a GPU finance lease with an Apollo-managed entity, about $40B in total principal payments, expected to close by year end, leases starting in 1H 2027. Musk says the $40B GPU debt has closed; Bloomberg says pricing talks are ongoing.",
+          "text": "Oct 26 close $146.90 (-0.40%), volume 103.2M; pre-market $148.35 (+0.99%) at 7:42 AM ET.",
+          "url": "https://stockanalysis.com/stocks/spcx/history/"
+        },
+        {
+          "text": "Lockup: up to 328.4M shares tradable Oct 26; next ~797.6M shares Dec 8; Musk's shares locked until June 2027.",
+          "url": "https://capitalsnitch.com/news/spacex-lockup-expiration-dates-spcx-unlock-schedule"
+        },
+        {
+          "text": "8-K Oct 26 (Item 8.01) binding commitment for GPU equipment finance lease with Apollo-managed entity, ~$40B principal over ~5 yrs.",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
         },
         {
-          "text": "Bernstein Outperform, price target raised to $268 from $248 today. Phillip Securities upgraded to Buy ($75 to $250) on Oct 22-23. Earlier last week: BofA $275, Barclays $300, Citi $240 (90-day upside catalyst watch), JPMorgan $240 to $500.",
+          "text": "Bernstein PT $268 from $248, Outperform.",
           "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-spacex-stock-price-target-on-ai-expansion-plans-93CH-4971542"
         },
         {
-          "text": "Lockup: day-135 release of up to ~328.4M shares eligible to trade today (Oct 26). Next unlock Dec 8 (~797.6M shares). Musk's stake locked until June 2027.",
-          "url": "https://stockanalysis.com/ipos/lockups/"
+          "text": "Deutsche Bank Buy, PT $250.",
+          "url": "https://www.cnbc.com/2026/10/26/spacexs-ai-infrastructure-plans-are-not-fully-priced-in-analysts-say.html"
         },
         {
-          "text": "SpaceX kicks off another potential fleecing of retail investors today (Oct. 26)",
-          "url": "https://www.fool.com/investing/2026/10/26/spacex-kicks-off-another-potential-fleecing-of-retail-investors-today-oct-26/"
+          "text": "SpaceX closes $40 billion debt deal for AI chips.",
+          "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
         },
         {
-          "text": "SPCX pre-market $148.20 (+0.5%) as of 8:39 AM ET",
-          "url": "https://finance.yahoo.com/quote/SPCX"
+          "text": "Tesla merger under special-committee review, no terms.",
+          "url": "https://www.fool.com/investing/2026/10/27/elon-musk-reveals-the-real-reason-he-hasn-t-confirmed-a-spacex-tesla-merger-will-happen/"
+        },
+        {
+          "text": "X: mostly bullish retail; merger debate.",
+          "url": "https://x.com/FLOWKINGOPTIONS/status/2114893188343451678"
+        },
+        {
+          "text": "X: mostly bullish retail; merger debate.",
+          "url": "https://x.com/Apocaron/status/2115013111279214964"
         }
       ],
       "gex": {
@@ -74,21 +94,33 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "spot": 210.96,
-      "changePct": -0.59,
-      "takeaway": "Pre-market $213.00 (+1.0% at 8:39 AM ET) on a thin print; AMD was -2% and MRVL -2.7% earlier. No new filings or insider trades. X is cautious and technical: about 13% off the peak, testing ~$210 support, with $200 in play on a break.",
+      "spot": 216.00,
+      "changePct": 2.39,
+      "takeaway": "Pre-market $217.93 (+0.89% at 8:24 AM ET). Second day up on $3B investment in Meta's share offering / expanded partnership, plus AI chip strength after Anthropic IPO filing. No new SEC filings since Oct 20. No new Form 4s.",
       "news": [
         {
-          "text": "Bernstein reiterated Buy with a $400 target and Barclays reiterated Buy at $275, both unchanged. Consensus price target $328.95 (range $180-$515).",
-          "url": "https://stockanalysis.com/stocks/nvda/ratings/"
+          "text": "Oct 26 close $216.00 (+2.39%); pre-market $217.93 (+0.89%) at 8:24 AM ET.",
+          "url": "https://stockanalysis.com/stocks/nvda/history/"
         },
         {
-          "text": "Samsung and SK Hynix plan mass shipments of 8-layer HBM4 to Nvidia in Q2 2027. SpaceX's ~$40B GPU financing, megacap earnings this week (GOOGL, MSFT, AMZN), and the Fed on Wednesday are in focus as US stock futures edge up.",
-          "url": "https://www.investing.com/news/economy-news/us-stock-futures-edge-up-as-oil-falls-heading-into-earnings-barrage-4971878"
+          "text": "Barclays Buy, $275 PT reiterated Oct 26.",
+          "url": "https://markets.businessinsider.com/news/stocks/new-buy-rating-for-nvidia-nvda-the-technology-giant-1036666152"
         },
         {
-          "text": "NVDA pre-market $213.00 (+1.0%) as of 8:39 AM ET (thin)",
-          "url": "https://finance.yahoo.com/quote/NVDA"
+          "text": "$3B investment in Meta's share offering / expanded partnership.",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-to-invest-3-bln-in-meta-share-offering-as-part-of-bigger-ai-partnership-4974236"
+        },
+        {
+          "text": "Why Broadcom, AMD, and Nvidia stocks are rising in premarket today, October 27.",
+          "url": "https://www.tipranks.com/news/why-broadcom-amd-and-nvidia-stocks-are-rising-in-premarket-today-october-27"
+        },
+        {
+          "text": "Risk: Nvidia's role as AI financier faces first big test as neoclouds take market hit.",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        },
+        {
+          "text": "X: bullish to mixed, skepticism on circular deals.",
+          "url": "https://x.com/stoqmarket/status/2115054234530140612"
         }
       ],
       "gex": {
