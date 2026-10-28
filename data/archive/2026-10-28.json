@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T08:37:00-04:00",
+  "closeAsOf": "2026-10-27",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX data unavailable today: data source session expired.",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 45.70,
+      "changePct": 1.06,
+      "takeaway": "Inflows came back for a second day, led by IBIT; BTC holding about $81K ahead of today's Fed decision (2 PM ET).",
+      "news": [
+        {
+          "text": "IBIT close Oct 27 $45.70 (+1.06%); pre-market $46.01 (+0.68%) at 7:54 AM ET",
+          "url": "https://stockanalysis.com/etf/ibit/history/"
+        },
+        {
+          "text": "IBIT net assets $65.37B",
+          "url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf"
+        },
+        {
+          "text": "BTC $81,297 at 7:53 AM ET, about +1.6% over 24 hours",
+          "url": "https://www.tokenpost.com/news/investing/42560"
+        },
+        {
+          "text": "ETF flows Oct 27 (Farside): IBIT +$151.5M, FBTC +$24.5M, total +$176.0M. Oct 26: total +$110.3M (all IBIT). Follows about $774M of outflows Oct 22-23.",
+          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+        },
+        {
+          "text": "Crypto Fear & Greed 51 (Neutral), up from 48",
+          "url": "https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds"
+        },
+        {
+          "text": "BTC below its 50-day moving average (~$81,935) for a sixth straight close; RSI 45.5",
+          "url": "https://basecamp.markets/bitcoin-etf-inflows-176m-fbtc/"
+        },
+        {
+          "text": "X trending: BTC ETFs attract $176M ahead of the Fed; about 91-94% odds of no rate change",
+          "url": "https://x.com/i/trending/2115350141263569376"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 148.58,
+      "changePct": 1.14,
+      "takeaway": "Price-target hikes keep coming after the Q3 beat; Anthropic compute deal and $40B GPU financing in focus; flat to slightly up pre-market.",
+      "news": [
+        {
+          "text": "SPCX close Oct 27 $148.58 (+1.14%), volume 95.8M",
+          "url": "https://stockanalysis.com/stocks/spcx/history/"
+        },
+        {
+          "text": "SPCX pre-market $148.90 (+0.22%) at 8:29 AM ET",
+          "url": "https://finance.yahoo.com/quote/SPCX/"
+        },
+        {
+          "text": "Analysts: Needham reiterated Buy $250 (Oct 27); BofA maintained Buy; Bernstein raised its target from $248 to $268 (Oct 26); Morgan Stanley reiterated $300. Consensus Buy, average target $256.59 from 39 analysts.",
+          "url": "https://stockanalysis.com/stocks/spcx/forecast/"
+        },
+        {
+          "text": "Anthropic IPO filing shows a SpaceXAI compute deal worth up to $120.5B, about $3.1B a month when fully delivered",
+          "url": "https://www.bizjournals.com/memphis/news/2026/10/27/spacexai-gpu-deal-with-anthropic-more-for-compute.html"
+        },
+        {
+          "text": "$40B GPU financing with Apollo for Nvidia Vera Rubin GPUs",
+          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+        },
+        {
+          "text": "X sentiment bullish, with Tesla-SpaceX merger chatter",
+          "url": "https://x.com/i/trending/2114892511185682444"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 217.94,
+      "changePct": 0.90,
+      "takeaway": "Up ~0.8% pre-market as chips rally on SK Hynix results; Nvidia investing $3B in Meta's share offering; Fed today, MSFT/GOOGL report after close. Earnings Nov 18.",
+      "news": [
+        {
+          "text": "NVDA pre-market $219.74 (+0.83%) at 8:23 AM ET",
+          "url": "https://stockmarketwatch.com/stock/NVDA/premarket"
+        },
+        {
+          "text": "Nvidia investing $3B in Meta's share offering; Meta expanding use of Vera Rubin",
+          "url": "https://www.tipranks.com/news/why-are-ai-chip-stocks-amd-intel-and-nvidia-rising-today-october-28"
+        },
+        {
+          "text": "Nasdaq futures +0.41%, Micron +4%, SK Hynix US shares +7.8% after a sevenfold profit jump",
+          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings-4978026"
+        },
+        {
+          "text": "X sentiment mostly bullish to neutral; Meta's $3B story trending",
+          "url": "https://x.com/i/trending/2115271263774011845"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}
