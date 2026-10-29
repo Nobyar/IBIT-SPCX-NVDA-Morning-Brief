@@ -1,44 +1,48 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T08:37:00-04:00",
-  "closeAsOf": "2026-10-27",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T08:33:00-04:00",
+  "closeAsOf": "2026-10-28",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
-  "note": "GEX data unavailable today: data source session expired.",
+  "note": "GEX data unavailable today (data source session expired).",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 45.70,
-      "changePct": 1.06,
-      "takeaway": "Inflows came back for a second day, led by IBIT; BTC holding about $81K ahead of today's Fed decision (2 PM ET).",
+      "spot": 46.14,
+      "changePct": 0.96,
+      "takeaway": "Steady IBIT-led inflows aren't lifting price; BTC stuck near $80K and IBIT set to open ~1.75% lower. No new SEC filings or insider Form 4s in the last 24 hours. Ether ETFs were -$21.4M on Oct 28.",
       "news": [
         {
-          "text": "IBIT close Oct 27 $45.70 (+1.06%); pre-market $46.01 (+0.68%) at 7:54 AM ET",
-          "url": "https://stockanalysis.com/etf/ibit/history/"
+          "text": "IBIT prior close $46.14; pre-market $45.33 (-$0.81, -1.75%) at 8:07 AM ET.",
+          "url": "https://stockmarketwatch.com/stock/IBIT/premarket"
         },
         {
-          "text": "IBIT net assets $65.37B",
-          "url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf"
+          "text": "Bitcoin about $80,022, -1.52% versus a prior close of $81,254.96.",
+          "url": "https://exa.ai/library/markets/crypto/BTC"
         },
         {
-          "text": "BTC $81,297 at 7:53 AM ET, about +1.6% over 24 hours",
-          "url": "https://www.tokenpost.com/news/investing/42560"
+          "text": "Coinbase bitcoin $79,924.49, -0.81% over 24 hours.",
+          "url": "https://www.coinbase.com/price/bitcoin"
         },
         {
-          "text": "ETF flows Oct 27 (Farside): IBIT +$151.5M, FBTC +$24.5M, total +$176.0M. Oct 26: total +$110.3M (all IBIT). Follows about $774M of outflows Oct 22-23.",
-          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+          "text": "Bitcoin 24-hour range about $79.6K-$81.7K. The Fed held at 3.75-4.00% on Wednesday; BTC briefly traded above $81K, then back near $80K.",
+          "url": "https://www.cryptotimes.io/2026/10/29/bitcoin-price-live-track-btc-movements-today-as-80k-holds-after-fed/"
         },
         {
-          "text": "Crypto Fear & Greed 51 (Neutral), up from 48",
-          "url": "https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds"
+          "text": "ETF flows Oct 28: IBIT +$136.01M; all US spot bitcoin ETFs +$137.33M, with BITB +$1.32M the only other inflow. Third straight inflow day (+$110.3M Oct 26, +$176.0M Oct 27, about $423.7M over three sessions). IBIT net assets $66.13B.",
+          "url": "https://www.tftc.io/bitcoin-etf-flows"
         },
         {
-          "text": "BTC below its 50-day moving average (~$81,935) for a sixth straight close; RSI 45.5",
-          "url": "https://basecamp.markets/bitcoin-etf-inflows-176m-fbtc/"
+          "text": "US spot bitcoin ETFs took in $137.3 million on Oct 28, extending the inflow streak to three days.",
+          "url": "https://hedgeco.net/news/10/2026/u-s-spot-bitcoin-etfs-took-in-137-3-million-on-october-28-extending-their-inflow-streak-to-three-days.html"
         },
         {
-          "text": "X trending: BTC ETFs attract $176M ahead of the Fed; about 91-94% odds of no rate change",
-          "url": "https://x.com/i/trending/2115350141263569376"
+          "text": "X: mixed, with institutions buying through IBIT set against retail worry about $78K-$79K support.",
+          "url": "https://x.com/FarsideUK/status/2115651227186831683"
+        },
+        {
+          "text": "X: mixed, with institutions buying through IBIT set against retail worry about $78K-$79K support.",
+          "url": "https://x.com/OnchainLens/status/2115547341826773070"
         }
       ],
       "gex": {
@@ -51,33 +55,37 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 148.58,
-      "changePct": 1.14,
-      "takeaway": "Price-target hikes keep coming after the Q3 beat; Anthropic compute deal and $40B GPU financing in focus; flat to slightly up pre-market.",
+      "spot": 145.23,
+      "changePct": -2.25,
+      "takeaway": "Weak tape into $140 support as unlock supply works through; no fresh company catalyst today. No new SEC filings or Form 4s in the last 24 hours (last Form 4 was Sep 24) and no confirmed analyst changes. Ship 42 completed static-fire tests Oct 28 ahead of Flight 15 (no date).",
       "news": [
         {
-          "text": "SPCX close Oct 27 $148.58 (+1.14%), volume 95.8M",
-          "url": "https://stockanalysis.com/stocks/spcx/history/"
+          "text": "SPCX prior close Oct 28 $145.23 (-2.25%).",
+          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-slide-as-mixed-big-tech-results-test-ai-trade-4981842"
         },
         {
-          "text": "SPCX pre-market $148.90 (+0.22%) at 8:29 AM ET",
-          "url": "https://finance.yahoo.com/quote/SPCX/"
+          "text": "SPCX pre-market $143.10 (-$2.13, -1.47%).",
+          "url": "https://public.com/stocks/spcx/pre-market"
         },
         {
-          "text": "Analysts: Needham reiterated Buy $250 (Oct 27); BofA maintained Buy; Bernstein raised its target from $248 to $268 (Oct 26); Morgan Stanley reiterated $300. Consensus Buy, average target $256.59 from 39 analysts.",
-          "url": "https://stockanalysis.com/stocks/spcx/forecast/"
+          "text": "Most recent SEC filing is the Oct 26 8-K on an about $40B GPU master finance lease commitment with an Apollo-managed entity. None in the last 24 hours.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
         },
         {
-          "text": "Anthropic IPO filing shows a SpaceXAI compute deal worth up to $120.5B, about $3.1B a month when fully delivered",
-          "url": "https://www.bizjournals.com/memphis/news/2026/10/27/spacexai-gpu-deal-with-anthropic-more-for-compute.html"
+          "text": "SpaceX stock sliding back toward $140 support about a week after the 1.3 billion-share unlock.",
+          "url": "https://finance.yahoo.com/markets/article/spacex-stock-slides-back-toward-140-as-smaller-space-names-leave-it-behind-171331237.html"
         },
         {
-          "text": "$40B GPU financing with Apollo for Nvidia Vera Rubin GPUs",
-          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+          "text": "T-Mobile's CEO again ruled out an MVNO deal.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-stock-slips-overnight-t-021334574.html"
         },
         {
-          "text": "X sentiment bullish, with Tesla-SpaceX merger chatter",
-          "url": "https://x.com/i/trending/2114892511185682444"
+          "text": "X: retail buying the roughly $144 dip, while bears cite lockup-unlock supply.",
+          "url": "https://x.com/TessSwiftAI/status/2115764694237798744"
+        },
+        {
+          "text": "X: retail buying the roughly $144 dip, while bears cite lockup-unlock supply.",
+          "url": "https://x.com/LIMSPACEX/status/2115651407223357688"
         }
       ],
       "gex": {
@@ -90,25 +98,33 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "spot": 217.94,
-      "changePct": 0.90,
-      "takeaway": "Up ~0.8% pre-market as chips rally on SK Hynix results; Nvidia investing $3B in Meta's share offering; Fed today, MSFT/GOOGL report after close. Earnings Nov 18.",
+      "spot": 215.38,
+      "changePct": -1.17,
+      "takeaway": "AI-spending worries and two regulatory/political headlines are only a modest drag (~-0.5%); next real test is Nov 17 earnings. No new SEC filings or insider Form 4s in the last 24 hours.",
       "news": [
         {
-          "text": "NVDA pre-market $219.74 (+0.83%) at 8:23 AM ET",
-          "url": "https://stockmarketwatch.com/stock/NVDA/premarket"
+          "text": "NVDA prior close Oct 28 $215.38 (-1.17%); pre-market $214.31 (-$1.07, -0.50%) at 8:30 AM ET.",
+          "url": "https://public.com/stocks/nvda/pre-market"
         },
         {
-          "text": "Nvidia investing $3B in Meta's share offering; Meta expanding use of Vera Rubin",
-          "url": "https://www.tipranks.com/news/why-are-ai-chip-stocks-amd-intel-and-nvidia-rising-today-october-28"
+          "text": "Alphabet's results (free cash flow -$9.07B, capex $51.36B) revived AI-spending worries and weighed on chip names. Nasdaq futures about -1%.",
+          "url": "https://invezz.com/news/2026/10/29/why-are-nvidia-amd-and-intel-stocks-crashing-in-pre-market-trading-today/"
         },
         {
-          "text": "Nasdaq futures +0.41%, Micron +4%, SK Hynix US shares +7.8% after a sevenfold profit jump",
-          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings-4978026"
+          "text": "Oct 28: Yorkville (Ives) reiterated Outperform with a $300 price target.",
+          "url": "https://www.marketshock.com/article/wall-street-analysts-rally-behind-big-tech-nvidia-meta-and-apple-among-wednesday"
         },
         {
-          "text": "X sentiment mostly bullish to neutral; Meta's $3B story trending",
-          "url": "https://x.com/i/trending/2115271263774011845"
+          "text": "DOJ questions Nvidia's $12.93B Hugging Face deal.",
+          "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html"
+        },
+        {
+          "text": "New York Times report says Megaspeed executive Alice Huang was deemed a Chinese intelligence asset; Nvidia calls the meetings routine.",
+          "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html"
+        },
+        {
+          "text": "X: cautious to bearish-leaning on Alphabet capex fears and the spy-story headline.",
+          "url": "https://x.com/movesurge/status/2115741045568790574"
         }
       ],
       "gex": {
