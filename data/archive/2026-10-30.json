@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T08:35:00-04:00",
+  "closeAsOf": "2026-10-29",
+  "disclaimer": "Not financial advice. Options data via dudediligence.club.",
+  "note": "GEX unavailable today (data source session expired).",
+  "tickers": [
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust",
+      "spot": 45.71,
+      "changePct": -0.93,
+      "takeaway": "Bearish open; bitcoin down ~3-4% on the Binance hack despite a fourth straight (small) day of ETF inflows. No new SEC filings in the window. Thursday's flows predate the hack.",
+      "news": [
+        {
+          "text": "IBIT prior close $45.71; pre-market $43.87 (-$1.84, -4.03%) at 5:59 AM ET.",
+          "url": "https://www.eoddata.com/stockquote/NASDAQ/IBIT.htm"
+        },
+        {
+          "text": "IBIT pre-market $43.72 (-$1.99, -4.35%) at 6:08 AM ET.",
+          "url": "https://www.investing.com/etfs/ibit-nasdaq"
+        },
+        {
+          "text": "Bitcoin about $77,650 (CoinDesk). Overnight low $76,400, the lowest since Sept 18. Crypto liquidations $1.57B.",
+          "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
+        },
+        {
+          "text": "CNBC: bitcoin $77,465, about -4%.",
+          "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
+        },
+        {
+          "text": "ETF flows Thu Oct 29 (Farside): total +$17.2M, a fourth straight inflow day. IBIT +$12.8M, FBTC +$10.5M, BITB +$8.8M, MSBT +$4.2M, BTCW -$3.8M, Grayscale BTC Mini -$15.3M.",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "text": "Week to date bitcoin ETF inflows +$440.8M (IBIT $410.6M). October to date IBIT +$1,165.8M. Thursday's flows predate the hack.",
+          "url": "https://cryptowatchdesk.com/news/etf-desk-oct-29-bitcoin-etfs-17-million-inflow-fourth-day-ether-outflow-105-million"
+        },
+        {
+          "text": "Binance says $6.3B of assets were hit, about $3B frozen, withdrawals paused, and it pledged to cover losses.",
+          "url": "https://www.bbc.com/news/articles/cwg7xp8kx4v5o"
+        },
+        {
+          "text": "Standard Chartered's Geoffrey Kendrick sees more downside until assets are unfrozen.",
+          "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
+        },
+        {
+          "text": "X: fear and hack-contagion talk.",
+          "url": "https://x.com/FarsideUK/status/2116013425889530293"
+        },
+        {
+          "text": "X: fear and hack-contagion talk.",
+          "url": "https://x.com/tdarling1/status/2116113971048484978"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "spot": 143.89,
+      "changePct": -0.92,
+      "takeaway": "Down ~4% pre-market on the tech selloff, Amazon Leo competition, and the CZ/Musk spat. No new filings or rating changes in the last 24 hours.",
+      "news": [
+        {
+          "text": "SPCX prior close Oct 29 $143.89 (-0.92%); pre-market $138.29 (-$5.60, -3.89%) at 8:06 AM ET.",
+          "url": "https://stockanalysis.com/stocks/spcx/ratings/"
+        },
+        {
+          "text": "Nasdaq-100 futures -2.29% at 6 AM ET after weak Intel guidance (Intel about -26%) and Amazon results.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-amzn-100738749.html"
+        },
+        {
+          "text": "No new SEC filings in the window (latest 8-K Oct 26; 10-Q and S-8 Oct 22). No Form 4s in the window.",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1181412"
+        },
+        {
+          "text": "No analyst changes in the last 24 hours. Recent: Needham Buy $250 (Oct 27), Bernstein price target $268 from $248 (Oct 26), J.P. Morgan price target $500 from $240 last week.",
+          "url": "https://blockspace.media/insight/jpmorgan-raises-spacex-price-target/"
+        },
+        {
+          "text": "SPCX slid overnight after Amazon reaffirmed Leo satellite service launches in 2026.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-asts-rklb-slide-overnight-013425305.html"
+        },
+        {
+          "text": "CZ said Binance's SpaceX stake is worth more than $1B and he isn't selling; Yi He said Binance doesn't need to sell.",
+          "url": "https://www.channelnewsasia.com/business/binance-does-not-need-sell-spacex-shares-cover-losses-co-founder-says-6506791"
+        },
+        {
+          "text": "Bloomberg via Gotrade: Anthropic is \"Customer B\" behind 34.5% of Q3 revenue.",
+          "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-october-30-2026/"
+        },
+        {
+          "text": "Ars Technica: SpaceX plans to stop flying Crew Dragon by 2030 and stopped selling commercial Falcon 9 launches for post-2028 missions.",
+          "url": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/"
+        },
+        {
+          "text": "X: mixed to negative, dominated by the CZ/Musk exchange.",
+          "url": "https://x.com/gonta_southwood/status/2116113390594830458"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "spot": 213.66,
+      "changePct": -0.80,
+      "takeaway": "Down ~3% pre-market on the AI-chip selloff after Intel's guidance, plus a spy report around Jensen Huang and talks to backstop an Anthropic data center. No new SEC filings or insider Form 4s in the last 24 hours.",
+      "news": [
+        {
+          "text": "NVDA prior close $213.66; pre-market $207.45 (-$6.21, -2.91%) at 8:30 AM ET.",
+          "url": "https://public.com/stocks/nvda/pre-market"
+        },
+        {
+          "text": "Nasdaq-100 futures -2.29% at 6 AM ET after weak Intel guidance (Intel about -26%) and Amazon results.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-amzn-100738749.html"
+        },
+        {
+          "text": "Chip stocks falling in pre-market after Intel's miss.",
+          "url": "https://www.tipranks.com/news/why-are-chip-stocks-amd-nvda-and-avgo-falling-in-premarket-trading-today-oct-30"
+        },
+        {
+          "text": "No analyst changes in the last 24 hours. Latest: Bernstein Buy $400 and Barclays Buy $275 (Oct 26).",
+          "url": "https://stockanalysis.com/stocks/nvda/ratings/"
+        },
+        {
+          "text": "The New York Times reports U.S. intelligence believes Megaspeed executive Alice Huang passed information to Beijing while close to Jensen Huang. Nvidia calls the contacts routine; China denies it.",
+          "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html"
+        },
+        {
+          "text": "Bloomberg: Nvidia is in talks to provide credit support, possibly more than $5B, for Nscale's West Virginia data center for Anthropic. The agreement is unsigned.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-in-talks-to-offer-credit-support-for-nscale-project"
+        },
+        {
+          "text": "X: cautious, with \"AI crash\" talk.",
+          "url": "https://x.com/MasterBJones/status/2116013820199969100"
+        }
+      ],
+      "gex": {
+        "callWall": null,
+        "putWall": null,
+        "flip": null,
+        "expirations": []
+      }
+    }
+  ]
+}
