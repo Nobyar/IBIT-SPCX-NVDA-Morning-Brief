@@ -1,48 +1,40 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T08:35:00-05:00",
-  "closeAsOf": "2026-11-03",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T08:40:00-05:00",
+  "closeAsOf": "2026-11-04",
   "disclaimer": "Not financial advice. Options data via dudediligence.club.",
   "note": "GEX data unavailable today (data source session expired).",
   "tickers": [
     {
       "symbol": "IBIT",
       "name": "iShares Bitcoin Trust",
-      "spot": 44.05,
-      "changePct": 1.61,
-      "takeaway": "Outflows are slowing as bitcoin rebounds toward $78,000; IBIT is slightly higher pre-market, but flows are still negative.",
+      "spot": 45.33,
+      "changePct": 2.91,
+      "takeaway": "Category spot BTC ETFs flipped to +$74.6M inflows Wed while IBIT kept bleeding (−$201.2M, 4th straight outflow); BTC chopping under $80K pre-market.",
       "news": [
         {
-          "text": "IBIT Tuesday close $44.05 (+1.61%); pre-market $44.31 (+$0.26, +0.59%) at 8:05 AM ET (Yahoo).",
-          "url": "https://finance.yahoo.com/quote/IBIT"
+          "text": "IBIT Wed close $45.33 (+2.91%); pre-market ~$45.05 (−0.62%) at ~8:38 AM ET (Yahoo).",
+          "url": "https://finance.yahoo.com/quote/IBIT/"
         },
         {
-          "text": "Bitcoin $78,259, up 0.78% over 24 hours (CoinGecko, 8:35 AM ET).",
+          "text": "Bitcoin ~$79,609 (CoinGecko ~8:40 AM ET) after reclaiming $80K Wed; 24h range ~$78,152–$81,004.",
           "url": "https://www.coingecko.com/en/coins/bitcoin"
         },
         {
-          "text": "Spot bitcoin ETF flows for Nov 3 (Farside): total -$115.6M, a third straight outflow day. IBIT -$95.0M (-1,223 BTC), GBTC -$52.6M, BITB +$21.9M, FBTC +$6.8M. IBIT's five-day outflow is -$585.2M.",
-          "url": "https://x.com/FarsideUK/status/2117840824033788047"
+          "text": "Spot bitcoin ETF flows Nov 4 (Farside): total +$74.6M. IBIT −$201.2M, FBTC +$236.7M, ARKB +$19.9M, BITB +$15.2M, BTCO +$4.0M.",
+          "url": "https://farside.co.uk/btc/"
         },
         {
-          "text": "Spot bitcoin ETFs saw a $115.6M outflow as bitcoin rebounds toward $78,000.",
-          "url": "https://cryptocompass.com/articles/us-spot-bitcoin-etfs-see-115-6-million-outflow-btc-rebounds-toward-78-000"
+          "text": "IBIT’s four-session outflow streak (Oct 30 + Nov 2–4) is about −$935M while peers absorb inflows.",
+          "url": "https://cryptobriefing.com/spot-bitcoin-etfs-inflows-ibit-outflow/"
         },
         {
-          "text": "IBIT's Nov 2 outflow was -$405.3M, the biggest since June 26.",
-          "url": "https://www.tradingview.com/news/cointelegraph:08081a47c094b:0-blackrock-s-ibit-sees-biggest-bitcoin-etf-outflows-since-june/"
-        },
-        {
-          "text": "Bitcoin steadied after a dip to about $76,300 as ETF outflows and the midterm elections weighed on crypto.",
-          "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
-        },
-        {
-          "text": "No new SEC filings.",
+          "text": "No new SEC filings overnight (CIK 0001980994).",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001980994"
         },
         {
-          "text": "X: cautious. IBIT is carrying nearly all of the outflows, and some say the selling is slowing.",
-          "url": "https://x.com/FarsideUK/status/2117840824033788047"
+          "text": "X: flow divergence — IBIT still the outflow sink; FBTC led inflows.",
+          "url": "https://x.com/FarsideUK/status/2118202900979867952"
         }
       ],
       "gex": {
@@ -55,29 +47,33 @@
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "spot": 141.31,
-      "changePct": 3.62,
-      "takeaway": "A Democratic sweep and the Texas governor flip add political risk for Musk companies; Gov-elect Hinojosa's proposed data-center moratorium threatens SpaceX's Texas AI buildout; the stock is about 38% below its $226 all-time high.",
+      "spot": 135.92,
+      "changePct": -3.81,
+      "takeaway": "Second down day into midterm hangover; Texas data-center/policy risk and Musk overhang keep pressure; China Renaissance initiated Buy at $194.20; ARK bought ~$47.4M Wed.",
       "news": [
         {
-          "text": "SPCX Tuesday close $141.31 (+3.62%); pre-market $130.18 (-$11.13, -7.88%) at 8:30 AM ET.",
-          "url": "https://public.com/stocks/spcx/pre-market"
+          "text": "SPCX Wed close $135.92 (−3.81%); pre-market ~$131.95 (−2.92%) at ~8:40 AM ET (Yahoo).",
+          "url": "https://finance.yahoo.com/quote/SPCX/"
         },
         {
-          "text": "SpaceX and Tesla fell pre-market after Democrats swept the House and Senate. The Texas governor flip adds political risk for Musk companies. Gov-elect Hinojosa's proposed data-center moratorium threatens SpaceX's Texas AI buildout. The stock is about 38% below its $226 all-time high.",
-          "url": "https://www.marketwatch.com/story/shares-in-elon-musk-s-spacex-tesla-fall-premarket-after-democrats-sweep-midterms-9d24fcf5"
+          "text": "Premarket slide tied to AI data-center politics and the ~$40B chip financing overhang.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-slides-overnight-spacex-40b-013345637.html"
         },
         {
-          "text": "Morgan Stanley's Jonas pulled the free-cash-flow-positive forecast to 2031 from 2035, cut projected debt issuance by about $280 billion, and kept a $300 target. KeyBanc flags about $473 billion of 2027 capex and did not change its rating.",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62851495/morgan-stanley-analyst-says-spcx-will-be-cash-flow-positive-by-2031-four-years-earlier-than-expected-cuts-borrowing-forecast-by-nearly-280-billion"
+          "text": "China Renaissance initiated coverage with Buy and a $194.20 price target (Nov 5).",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-china-renaissance-begins-coverage-on-spacex-nasdaq-spcx-2026-11-05/"
         },
         {
-          "text": "No new SEC filings. No insider trades in the last 24 hours. Post-IPO unlock overhang is more than 1 billion shares.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1181412"
+          "text": "ARK Invest bought 348,406 SPCX shares (~$47.4M) Wed across ARKK/ARKQ/ARKW.",
+          "url": "https://www.tipranks.com/news/spacex-or-alphabet-cathie-wood-buys-47-4m-of-one-stock-sells-13-3m-of-the-other"
         },
         {
-          "text": "X: bearish on political risk, with talk of a move below $120. Musk: \"Data centers in space looking pretty appealing right now.\"",
-          "url": "https://x.com/elonmusk/status/2117862462976594112"
+          "text": "No new November SEC filings found; latest material remains the Oct 26 Apollo GPU lease 8-K.",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412"
+        },
+        {
+          "text": "X: bearish-to-defensive on political risk; some dip-buy conviction after ARK.",
+          "url": "https://x.com/MoodSpaceX/status/2118337033370476986"
         }
       ],
       "gex": {
@@ -89,34 +85,34 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVIDIA",
-      "spot": 206.69,
-      "changePct": 2.29,
-      "takeaway": "Strong demand signals (AMD's 2027 guide and Super Micro's raise) are offset by China supply limits and state data-center restriction worries; earnings are Nov 17.",
+      "name": "Nvidia",
+      "spot": 200.13,
+      "changePct": -3.17,
+      "takeaway": "Chips still soft on Democratic midterm → data-center permitting fears; pre-market lower again; earnings Nov 17 is the next hard catalyst.",
       "news": [
         {
-          "text": "NVDA Tuesday close $206.69 (+2.29%); pre-market $204.25 (-$2.44, -1.18%) at 8:30 AM ET.",
-          "url": "https://public.com/stocks/nvda/pre-market"
+          "text": "NVDA Wed close $200.13 (−3.17%); pre-market ~$197.02 (−1.55%) at ~8:40 AM ET (Yahoo).",
+          "url": "https://finance.yahoo.com/quote/NVDA/"
         },
         {
-          "text": "Data-center and neocloud names fell pre-market. Demand signals from AMD's 2027 guide and Super Micro's raise are offset by China supply limits and worries about state data-center restrictions. Earnings are Nov 17.",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62857127/what-is-going-on-with-nvidia-stock-on-wednesday-2"
+          "text": "AI/data-center stocks slipped as the Democratic sweep clouded expansion/permitting plans.",
+          "url": "https://www.investing.com/news/stock-market-news/ai-datacenter-stocks-slip-as-democratic-sweep-clouds-expansion-plans-5003196"
         },
         {
-          "text": "US futures rose after Democrats won both the House and Senate. Reuters at 4:22 AM ET: Dow futures +0.84%, S&P futures +0.35%, Nasdaq-100 futures +0.16%.",
-          "url": "https://www.cnbc.com/2026/11/04/a-blue-wave-sends-futures-into-the-green.html"
+          "text": "Midterms could widen the AI data-center divide; NVDA lagged while MSFT/AMZN outperformed Wed.",
+          "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
         },
         {
-          "text": "Melius Research cut its price target to $315 from $420 and kept Buy (Nov 2). Bank of America reiterates Buy.",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-nvidia-nasdaq-nvda-stock-gets-price-target-trim-from-melius-research-2026-11-02/"
+          "text": "Melius (Nov 2) maintained Buy and cut PT $420 → $315; Yahoo 1y avg target ~$327. Earnings Nov 17.",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62915715/what-is-going-on-with-nvidia-stock-on-thursday"
         },
         {
-          "text": "No new SEC filings or insider trades.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=&dateb=&owner=include&count=40"
+          "text": "No new SEC Form 4s overnight.",
+          "url": "http://www.openinsider.com/NVDA"
         },
         {
-          "text": "X: mixed to bullish. Nvidia passed Apple again, at about a $5.0 trillion market value. Bloomberg reports Chinese buyers who ordered about $70 billion of RTX Pro 5500s are getting only a small fraction.",
-          "url": "https://x.com/OpenOutcrier/status/2117971729666687400"
+          "text": "X: cautious near-term on AI-capex/policy; some buy-the-dip voices into Nov 17.",
+          "url": "https://x.com/DeItaone/status/2118337350572945857"
         }
       ],
       "gex": {
